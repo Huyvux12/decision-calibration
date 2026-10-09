@@ -1,0 +1,14 @@
+{
+  "row_count": 5000,
+  "case_count": 3400,
+  "cases_sha256": "318f199b56cdc08d6db9865edbf73d8264017fe48dc909a550f7fde6aa54ee43",
+  "complete": true,
+  "gold_alignment": true,
+  "raw_reconstruction_verified": true,
+  "normalized_exact_text_duplicates": [],
+  "old_new_typed_selection_changes": 0,
+  "old_new_probability_max_difference": 1.3894109490708573e-06,
+  "probability_validation_issues": {},
+  "revision": "02b55d7076f15129e59ab3f94783f32c4b088674",
+  "bootstrap": 1000
+}

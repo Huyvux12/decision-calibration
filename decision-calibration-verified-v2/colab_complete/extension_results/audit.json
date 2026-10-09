@@ -1,0 +1,66 @@
+{
+  "d1-omni": {
+    "rows": 5000,
+    "cases": 3400,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {},
+    "soft_gold_attached": 2000,
+    "sha256": "a71e4447ea680743896deaf644faa588335c44c55076ee996a8a9a0964d2960a",
+    "ood_labels": {
+      "ood_agnews_balanced": {
+        "business": 250,
+        "scitech": 250,
+        "sports": 250,
+        "world": 250
+      },
+      "ood_rotten_balanced_v2": {
+        "true": 250,
+        "false": 250
+      },
+      "ood_sst2_balanced_v2": {
+        "true": 250,
+        "false": 250
+      },
+      "ood_yelp_rating": {
+        "4": 200,
+        "2": 200,
+        "1": 200,
+        "3": 200,
+        "0": 200
+      }
+    }
+  },
+  "d1-3b": {
+    "rows": 5000,
+    "cases": 3400,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {
+      "stored_prediction_tie_other_than_first": 2
+    },
+    "soft_gold_attached": 2000,
+    "sha256": "6226b70899fe93025e6c442d0d79ed842b7b12014551882b3d77f04a0a4de389",
+    "ood_labels": {
+      "ood_agnews_balanced": {
+        "business": 250,
+        "scitech": 250,
+        "sports": 250,
+        "world": 250
+      },
+      "ood_rotten_balanced_v2": {
+        "true": 250,
+        "false": 250
+      },
+      "ood_sst2_balanced_v2": {
+        "true": 250,
+        "false": 250
+      },
+      "ood_yelp_rating": {
+        "4": 200,
+        "2": 200,
+        "1": 200,
+        "3": 200,
+        "0": 200
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/run_extension.py'), '--model', 'd1-3b', '--out', PosixPath('/content/decision_calibration_verified_v2/extension_output'), '--quota', 250, '--yelp-per-class', 200, '--include-typed']
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]
+Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 1585.67it/s]
+
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/707 [00:03<44:09,  3.75s/it]
+Loading weights:   6%|▌         | 42/707 [00:03<00:43, 15.24it/s]
+Loading weights:   9%|▉         | 65/707 [00:04<00:27, 23.37it/s]
+Loading weights:  11%|█▏        | 81/707 [00:04<00:22, 27.89it/s]
+Loading weights:  13%|█▎        | 93/707 [00:04<00:19, 31.48it/s]
+Loading weights:  15%|█▍        | 103/707 [00:05<00:27, 21.78it/s]
+Loading weights:  16%|█▌        | 110/707 [00:06<00:29, 20.41it/s]
+Loading weights:  16%|█▋        | 115/707 [00:06<00:38, 15.21it/s]
+Loading weights:  17%|█▋        | 119/707 [00:07<00:42, 13.78it/s]
+Loading weights:  18%|█▊        | 128/707 [00:07<00:34, 16.96it/s]
+Loading weights:  19%|█▊        | 131/707 [00:07<00:37, 15.32it/s]
+Loading weights:  19%|█▉        | 134/707 [00:08<00:37, 15.42it/s]
+Loading weights:  20%|█▉        | 138/707 [00:08<00:39, 14.23it/s]
+Loading weights:  20%|█▉        | 140/707 [00:08<00:48, 11.67it/s]
+Loading weights:  21%|██        | 146/707 [00:09<00:40, 13.82it/s]
+Loading weights:  21%|██        | 148/707 [00:09<00:49, 11.33it/s]
+Loading weights:  21%|██▏       | 152/707 [00:09<00:48, 11.35it/s]
+Loading weights:  23%|██▎       | 160/707 [00:09<00:29, 18.81it/s]
+Loading weights:  23%|██▎       | 164/707 [00:10<00:28, 19.14it/s]
+Loading weights:  24%|██▎       | 167/707 [00:10<00:43, 12.33it/s]
+Loading weights:  24%|██▍       | 173/707 [00:11<00:38, 13.76it/s]
+Loading weights:  25%|██▍       | 175/707 [00:11<00:46, 11.34it/s]
+Loading weights:  26%|██▌       | 181/707 [00:11<00:38, 13.54it/s]
+Loading weights:  26%|██▌       | 183/707 [00:12<00:47, 11.08it/s]
+Loading weights:  26%|██▋       | 187/707 [00:12<00:46, 11.28it/s]
+Loading weights:  28%|██▊       | 195/707 [00:12<00:27, 18.88it/s]
+Loading weights:  28%|██▊       | 199/707 [00:12<00:26, 19.26it/s]
+Loading weights:  29%|██▊       | 202/707 [00:13<00:40, 12.37it/s]
+Loading weights:  29%|██▉       | 208/707 [00:13<00:36, 13.83it/s]
+Loading weights:  30%|██▉       | 211/707 [00:13<00:40, 12.20it/s]
+Loading weights:  30%|███       | 214/707 [00:14<00:44, 11.13it/s]
+Loading weights:  31%|███▏      | 222/707 [00:14<00:26, 18.36it/s]
+Loading weights:  32%|███▏      | 226/707 [00:14<00:25, 19.12it/s]
+Loading weights:  32%|███▏      | 229/707 [00:15<00:39, 12.15it/s]
+Loading weights:  33%|███▎      | 235/707 [00:15<00:34, 13.66it/s]
+Loading weights:  34%|███▎      | 237/707 [00:15<00:41, 11.24it/s]
+Loading weights:  34%|███▍      | 241/707 [00:16<00:41, 11.30it/s]
+Loading weights:  35%|███▌      | 250/707 [00:16<00:23, 19.83it/s]
+Loading weights:  36%|███▌      | 254/707 [00:16<00:28, 15.84it/s]
+Loading weights:  36%|███▋      | 257/707 [00:17<00:33, 13.51it/s]
+Loading weights:  37%|███▋      | 262/707 [00:17<00:32, 13.76it/s]
+Loading weights:  37%|███▋      | 265/707 [00:17<00:37, 11.80it/s]
+Loading weights:  41%|████      | 289/707 [00:17<00:11, 36.11it/s]
+Loading weights:  43%|████▎     | 301/707 [00:18<00:08, 46.32it/s]
+Loading weights:  44%|████▍     | 311/707 [00:18<00:07, 53.93it/s]
+Loading weights:  46%|████▋     | 327/707 [00:18<00:05, 67.67it/s]
+Loading weights:  49%|████▊     | 343/707 [00:18<00:04, 76.54it/s]
+Loading weights:  51%|█████     | 359/707 [00:18<00:04, 84.59it/s]
+Loading weights:  53%|█████▎    | 375/707 [00:18<00:03, 89.61it/s]
+Loading weights:  55%|█████▌    | 391/707 [00:18<00:03, 92.74it/s]
+Loading weights:  58%|█████▊    | 407/707 [00:19<00:03, 95.72it/s]
+Loading weights:  60%|█████▉    | 423/707 [00:19<00:02, 96.64it/s]
+Loading weights:  62%|██████▏   | 439/707 [00:19<00:02, 100.38it/s]
+Loading weights:  64%|██████▍   | 455/707 [00:19<00:02, 99.43it/s] 
+Loading weights:  67%|██████▋   | 471/707 [00:19<00:02, 104.10it/s]
+Loading weights:  69%|██████▉   | 487/707 [00:19<00:02, 105.78it/s]
+Loading weights:  71%|███████   | 503/707 [00:20<00:01, 107.69it/s]
+Loading weights:  73%|███████▎  | 519/707 [00:20<00:01, 107.26it/s]
+Loading weights:  76%|███████▌  | 535/707 [00:20<00:01, 114.83it/s]
+Loading weights:  78%|███████▊  | 551/707 [00:20<00:01, 122.55it/s]
+Loading weights:  80%|████████  | 567/707 [00:20<00:01, 127.05it/s]
+Loading weights:  82%|████████▏ | 583/707 [00:20<00:00, 132.16it/s]
+Loading weights:  85%|████████▍ | 599/707 [00:20<00:00, 137.74it/s]
+Loading weights:  87%|████████▋ | 615/707 [00:20<00:00, 140.52it/s]
+Loading weights:  89%|████████▉ | 631/707 [00:20<00:00, 144.13it/s]
+Loading weights:  92%|█████████▏| 647/707 [00:21<00:00, 140.31it/s]
+Loading weights:  94%|█████████▍| 663/707 [00:21<00:00, 137.34it/s]
+Loading weights:  96%|█████████▌| 679/707 [00:21<00:00, 135.91it/s]
+Loading weights:  98%|█████████▊| 695/707 [00:21<00:00, 136.10it/s]
+Loading weights: 100%|██████████| 707/707 [00:21<00:00, 32.93it/s] 
+d1-3b 1 / 3400 rows 5 seconds 4
+d1-3b 26 / 3400 rows 130 seconds 8
+d1-3b 51 / 3400 rows 255 seconds 11
+d1-3b 76 / 3400 rows 380 seconds 15
+d1-3b 101 / 3400 rows 505 seconds 19
+d1-3b 126 / 3400 rows 630 seconds 25
+d1-3b 151 / 3400 rows 755 seconds 30
+d1-3b 176 / 3400 rows 880 seconds 36
+d1-3b 201 / 3400 rows 1005 seconds 42
+d1-3b 226 / 3400 rows 1130 seconds 47
+d1-3b 251 / 3400 rows 1255 seconds 53
+d1-3b 276 / 3400 rows 1380 seconds 58
+d1-3b 301 / 3400 rows 1505 seconds 64
+d1-3b 326 / 3400 rows 1630 seconds 69
+d1-3b 351 / 3400 rows 1755 seconds 74
+d1-3b 376 / 3400 rows 1880 seconds 80
+d1-3b 401 / 3400 rows 2001 seconds 85
+d1-3b 426 / 3400 rows 2026 seconds 87
+d1-3b 451 / 3400 rows 2051 seconds 89
+d1-3b 476 / 3400 rows 2076 seconds 90
+d1-3b 501 / 3400 rows 2101 seconds 92
+d1-3b 526 / 3400 rows 2126 seconds 93
+d1-3b 551 / 3400 rows 2151 seconds 95
+d1-3b 576 / 3400 rows 2176 seconds 96
+d1-3b 601 / 3400 rows 2201 seconds 98
+d1-3b 626 / 3400 rows 2226 seconds 99
+d1-3b 651 / 3400 rows 2251 seconds 101
+d1-3b 676 / 3400 rows 2276 seconds 102
+d1-3b 701 / 3400 rows 2301 seconds 104
+d1-3b 726 / 3400 rows 2326 seconds 105
+d1-3b 751 / 3400 rows 2351 seconds 106
+d1-3b 776 / 3400 rows 2376 seconds 108
+d1-3b 801 / 3400 rows 2401 seconds 109
+d1-3b 826 / 3400 rows 2426 seconds 111
+d1-3b 851 / 3400 rows 2451 seconds 112
+d1-3b 876 / 3400 rows 2476 seconds 114
+d1-3b 901 / 3400 rows 2501 seconds 115
+d1-3b 926 / 3400 rows 2526 seconds 117
+d1-3b 951 / 3400 rows 2551 seconds 118
+d1-3b 976 / 3400 rows 2576 seconds 119
+d1-3b 1001 / 3400 rows 2601 seconds 121
+d1-3b 1026 / 3400 rows 2626 seconds 122
+d1-3b 1051 / 3400 rows 2651 seconds 124
+d1-3b 1076 / 3400 rows 2676 seconds 125
+d1-3b 1101 / 3400 rows 2701 seconds 127
+d1-3b 1126 / 3400 rows 2726 seconds 128
+d1-3b 1151 / 3400 rows 2751 seconds 129
+d1-3b 1176 / 3400 rows 2776 seconds 131
+d1-3b 1201 / 3400 rows 2801 seconds 132
+d1-3b 1226 / 3400 rows 2826 seconds 134
+d1-3b 1251 / 3400 rows 2851 seconds 135
+d1-3b 1276 / 3400 rows 2876 seconds 137
+d1-3b 1301 / 3400 rows 2901 seconds 138
+d1-3b 1326 / 3400 rows 2926 seconds 140
+d1-3b 1351 / 3400 rows 2951 seconds 141
+d1-3b 1376 / 3400 rows 2976 seconds 142
+d1-3b 1401 / 3400 rows 3001 seconds 144
+d1-3b 1426 / 3400 rows 3026 seconds 145
+d1-3b 1451 / 3400 rows 3051 seconds 146
+d1-3b 1476 / 3400 rows 3076 seconds 148
+d1-3b 1501 / 3400 rows 3101 seconds 149
+d1-3b 1526 / 3400 rows 3126 seconds 150
+d1-3b 1551 / 3400 rows 3151 seconds 152
+d1-3b 1576 / 3400 rows 3176 seconds 153
+d1-3b 1601 / 3400 rows 3201 seconds 154
+d1-3b 1626 / 3400 rows 3226 seconds 155
+d1-3b 1651 / 3400 rows 3251 seconds 156
+d1-3b 1676 / 3400 rows 3276 seconds 158
+d1-3b 1701 / 3400 rows 3301 seconds 159
+d1-3b 1726 / 3400 rows 3326 seconds 160
+d1-3b 1751 / 3400 rows 3351 seconds 162
+d1-3b 1776 / 3400 rows 3376 seconds 163
+d1-3b 1801 / 3400 rows 3401 seconds 164
+d1-3b 1826 / 3400 rows 3426 seconds 165
+d1-3b 1851 / 3400 rows 3451 seconds 167
+d1-3b 1876 / 3400 rows 3476 seconds 168
+d1-3b 1901 / 3400 rows 3501 seconds 169
+d1-3b 1926 / 3400 rows 3526 seconds 170
+d1-3b 1951 / 3400 rows 3551 seconds 171
+d1-3b 1976 / 3400 rows 3576 seconds 173
+d1-3b 2001 / 3400 rows 3601 seconds 174
+d1-3b 2026 / 3400 rows 3626 seconds 175
+d1-3b 2051 / 3400 rows 3651 seconds 177
+d1-3b 2076 / 3400 rows 3676 seconds 178
+d1-3b 2101 / 3400 rows 3701 seconds 179
+d1-3b 2126 / 3400 rows 3726 seconds 180
+d1-3b 2151 / 3400 rows 3751 seconds 181
+d1-3b 2176 / 3400 rows 3776 seconds 183
+d1-3b 2201 / 3400 rows 3801 seconds 184
+d1-3b 2226 / 3400 rows 3826 seconds 185
+d1-3b 2251 / 3400 rows 3851 seconds 187
+d1-3b 2276 / 3400 rows 3876 seconds 188
+d1-3b 2301 / 3400 rows 3901 seconds 189
+d1-3b 2326 / 3400 rows 3926 seconds 190
+d1-3b 2351 / 3400 rows 3951 seconds 192
+d1-3b 2376 / 3400 rows 3976 seconds 193
+d1-3b 2401 / 3400 rows 4001 seconds 194
+d1-3b 2426 / 3400 rows 4026 seconds 197
+d1-3b 2451 / 3400 rows 4051 seconds 200
+d1-3b 2476 / 3400 rows 4076 seconds 203
+d1-3b 2501 / 3400 rows 4101 seconds 206
+d1-3b 2526 / 3400 rows 4126 seconds 208
+d1-3b 2551 / 3400 rows 4151 seconds 211
+d1-3b 2576 / 3400 rows 4176 seconds 214
+d1-3b 2601 / 3400 rows 4201 seconds 218
+d1-3b 2626 / 3400 rows 4226 seconds 220
+d1-3b 2651 / 3400 rows 4251 seconds 223
+d1-3b 2676 / 3400 rows 4276 seconds 227
+d1-3b 2701 / 3400 rows 4301 seconds 229
+d1-3b 2726 / 3400 rows 4326 seconds 232
+d1-3b 2751 / 3400 rows 4351 seconds 234
+d1-3b 2776 / 3400 rows 4376 seconds 237
+d1-3b 2801 / 3400 rows 4401 seconds 240
+d1-3b 2826 / 3400 rows 4426 seconds 243
+d1-3b 2851 / 3400 rows 4451 seconds 245
+d1-3b 2876 / 3400 rows 4476 seconds 248
+d1-3b 2901 / 3400 rows 4501 seconds 251
+d1-3b 2926 / 3400 rows 4526 seconds 253
+d1-3b 2951 / 3400 rows 4551 seconds 256
+d1-3b 2976 / 3400 rows 4576 seconds 259
+d1-3b 3001 / 3400 rows 4601 seconds 263
+d1-3b 3026 / 3400 rows 4626 seconds 265
+d1-3b 3051 / 3400 rows 4651 seconds 268
+d1-3b 3076 / 3400 rows 4676 seconds 271
+d1-3b 3101 / 3400 rows 4701 seconds 274
+d1-3b 3126 / 3400 rows 4726 seconds 277
+d1-3b 3151 / 3400 rows 4751 seconds 280
+d1-3b 3176 / 3400 rows 4776 seconds 282
+d1-3b 3201 / 3400 rows 4801 seconds 285
+d1-3b 3226 / 3400 rows 4826 seconds 287
+d1-3b 3251 / 3400 rows 4851 seconds 290
+d1-3b 3276 / 3400 rows 4876 seconds 292
+d1-3b 3301 / 3400 rows 4901 seconds 294
+d1-3b 3326 / 3400 rows 4926 seconds 297
+d1-3b 3351 / 3400 rows 4951 seconds 300
+d1-3b 3376 / 3400 rows 4976 seconds 303
+{
+  "model": "d1-3b",
+  "actual_rows": 5000,
+  "expected_rows": 5000,
+  "complete": true
+}
+
+EXIT CODE: 0

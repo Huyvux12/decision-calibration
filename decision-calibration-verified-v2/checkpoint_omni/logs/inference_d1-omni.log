@@ -1,0 +1,158 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/run_extension.py'), '--model', 'd1-omni', '--out', PosixPath('/content/decision_calibration_verified_v2/extension_output'), '--quota', 250, '--yelp-per-class', 200, '--include-typed']
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]
+Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 1372.03it/s]
+
+Loading weights:   0%|          | 0/1084 [00:00<?, ?it/s]
+Loading weights:  23%|██▎       | 254/1084 [00:00<00:00, 2532.75it/s]
+Loading weights:  47%|████▋     | 508/1084 [00:00<00:00, 2383.64it/s]
+Loading weights:  69%|██████▉   | 747/1084 [00:00<00:00, 1266.64it/s]
+Loading weights:  84%|████████▍ | 914/1084 [00:00<00:00, 891.01it/s] 
+Loading weights:  97%|█████████▋| 1048/1084 [00:00<00:00, 974.88it/s]
+Loading weights: 100%|██████████| 1084/1084 [00:00<00:00, 1139.39it/s]
+d1-omni 1 / 3400 rows 5 seconds 1
+d1-omni 26 / 3400 rows 130 seconds 2
+d1-omni 51 / 3400 rows 255 seconds 3
+d1-omni 76 / 3400 rows 380 seconds 5
+d1-omni 101 / 3400 rows 505 seconds 6
+d1-omni 126 / 3400 rows 630 seconds 8
+d1-omni 151 / 3400 rows 755 seconds 11
+d1-omni 176 / 3400 rows 880 seconds 13
+d1-omni 201 / 3400 rows 1005 seconds 15
+d1-omni 226 / 3400 rows 1130 seconds 18
+d1-omni 251 / 3400 rows 1255 seconds 20
+d1-omni 276 / 3400 rows 1380 seconds 22
+d1-omni 301 / 3400 rows 1505 seconds 25
+d1-omni 326 / 3400 rows 1630 seconds 27
+d1-omni 351 / 3400 rows 1755 seconds 29
+d1-omni 376 / 3400 rows 1880 seconds 31
+d1-omni 401 / 3400 rows 2001 seconds 33
+d1-omni 426 / 3400 rows 2026 seconds 34
+d1-omni 451 / 3400 rows 2051 seconds 34
+d1-omni 476 / 3400 rows 2076 seconds 35
+d1-omni 501 / 3400 rows 2101 seconds 35
+d1-omni 526 / 3400 rows 2126 seconds 36
+d1-omni 551 / 3400 rows 2151 seconds 37
+d1-omni 576 / 3400 rows 2176 seconds 37
+d1-omni 601 / 3400 rows 2201 seconds 38
+d1-omni 626 / 3400 rows 2226 seconds 38
+d1-omni 651 / 3400 rows 2251 seconds 39
+d1-omni 676 / 3400 rows 2276 seconds 40
+d1-omni 701 / 3400 rows 2301 seconds 40
+d1-omni 726 / 3400 rows 2326 seconds 41
+d1-omni 751 / 3400 rows 2351 seconds 41
+d1-omni 776 / 3400 rows 2376 seconds 42
+d1-omni 801 / 3400 rows 2401 seconds 43
+d1-omni 826 / 3400 rows 2426 seconds 43
+d1-omni 851 / 3400 rows 2451 seconds 44
+d1-omni 876 / 3400 rows 2476 seconds 45
+d1-omni 901 / 3400 rows 2501 seconds 45
+d1-omni 926 / 3400 rows 2526 seconds 46
+d1-omni 951 / 3400 rows 2551 seconds 47
+d1-omni 976 / 3400 rows 2576 seconds 47
+d1-omni 1001 / 3400 rows 2601 seconds 48
+d1-omni 1026 / 3400 rows 2626 seconds 48
+d1-omni 1051 / 3400 rows 2651 seconds 49
+d1-omni 1076 / 3400 rows 2676 seconds 49
+d1-omni 1101 / 3400 rows 2701 seconds 50
+d1-omni 1126 / 3400 rows 2726 seconds 51
+d1-omni 1151 / 3400 rows 2751 seconds 51
+d1-omni 1176 / 3400 rows 2776 seconds 52
+d1-omni 1201 / 3400 rows 2801 seconds 52
+d1-omni 1226 / 3400 rows 2826 seconds 53
+d1-omni 1251 / 3400 rows 2851 seconds 53
+d1-omni 1276 / 3400 rows 2876 seconds 54
+d1-omni 1301 / 3400 rows 2901 seconds 55
+d1-omni 1326 / 3400 rows 2926 seconds 55
+d1-omni 1351 / 3400 rows 2951 seconds 56
+d1-omni 1376 / 3400 rows 2976 seconds 57
+d1-omni 1401 / 3400 rows 3001 seconds 58
+d1-omni 1426 / 3400 rows 3026 seconds 58
+d1-omni 1451 / 3400 rows 3051 seconds 59
+d1-omni 1476 / 3400 rows 3076 seconds 59
+d1-omni 1501 / 3400 rows 3101 seconds 60
+d1-omni 1526 / 3400 rows 3126 seconds 61
+d1-omni 1551 / 3400 rows 3151 seconds 61
+d1-omni 1576 / 3400 rows 3176 seconds 62
+d1-omni 1601 / 3400 rows 3201 seconds 62
+d1-omni 1626 / 3400 rows 3226 seconds 63
+d1-omni 1651 / 3400 rows 3251 seconds 63
+d1-omni 1676 / 3400 rows 3276 seconds 64
+d1-omni 1701 / 3400 rows 3301 seconds 65
+d1-omni 1726 / 3400 rows 3326 seconds 65
+d1-omni 1751 / 3400 rows 3351 seconds 66
+d1-omni 1776 / 3400 rows 3376 seconds 66
+d1-omni 1801 / 3400 rows 3401 seconds 67
+d1-omni 1826 / 3400 rows 3426 seconds 68
+d1-omni 1851 / 3400 rows 3451 seconds 68
+d1-omni 1876 / 3400 rows 3476 seconds 69
+d1-omni 1901 / 3400 rows 3501 seconds 70
+d1-omni 1926 / 3400 rows 3526 seconds 70
+d1-omni 1951 / 3400 rows 3551 seconds 71
+d1-omni 1976 / 3400 rows 3576 seconds 71
+d1-omni 2001 / 3400 rows 3601 seconds 72
+d1-omni 2026 / 3400 rows 3626 seconds 73
+d1-omni 2051 / 3400 rows 3651 seconds 73
+d1-omni 2076 / 3400 rows 3676 seconds 74
+d1-omni 2101 / 3400 rows 3701 seconds 74
+d1-omni 2126 / 3400 rows 3726 seconds 75
+d1-omni 2151 / 3400 rows 3751 seconds 75
+d1-omni 2176 / 3400 rows 3776 seconds 76
+d1-omni 2201 / 3400 rows 3801 seconds 76
+d1-omni 2226 / 3400 rows 3826 seconds 77
+d1-omni 2251 / 3400 rows 3851 seconds 78
+d1-omni 2276 / 3400 rows 3876 seconds 78
+d1-omni 2301 / 3400 rows 3901 seconds 79
+d1-omni 2326 / 3400 rows 3926 seconds 79
+d1-omni 2351 / 3400 rows 3951 seconds 80
+d1-omni 2376 / 3400 rows 3976 seconds 81
+d1-omni 2401 / 3400 rows 4001 seconds 81
+d1-omni 2426 / 3400 rows 4026 seconds 82
+d1-omni 2451 / 3400 rows 4051 seconds 83
+d1-omni 2476 / 3400 rows 4076 seconds 84
+d1-omni 2501 / 3400 rows 4101 seconds 84
+d1-omni 2526 / 3400 rows 4126 seconds 85
+d1-omni 2551 / 3400 rows 4151 seconds 85
+d1-omni 2576 / 3400 rows 4176 seconds 86
+d1-omni 2601 / 3400 rows 4201 seconds 87
+d1-omni 2626 / 3400 rows 4226 seconds 87
+d1-omni 2651 / 3400 rows 4251 seconds 88
+d1-omni 2676 / 3400 rows 4276 seconds 89
+d1-omni 2701 / 3400 rows 4301 seconds 89
+d1-omni 2726 / 3400 rows 4326 seconds 90
+d1-omni 2751 / 3400 rows 4351 seconds 90
+d1-omni 2776 / 3400 rows 4376 seconds 91
+d1-omni 2801 / 3400 rows 4401 seconds 92
+d1-omni 2826 / 3400 rows 4426 seconds 92
+d1-omni 2851 / 3400 rows 4451 seconds 93
+d1-omni 2876 / 3400 rows 4476 seconds 94
+d1-omni 2901 / 3400 rows 4501 seconds 95
+d1-omni 2926 / 3400 rows 4526 seconds 95
+d1-omni 2951 / 3400 rows 4551 seconds 96
+d1-omni 2976 / 3400 rows 4576 seconds 97
+d1-omni 3001 / 3400 rows 4601 seconds 97
+d1-omni 3026 / 3400 rows 4626 seconds 98
+d1-omni 3051 / 3400 rows 4651 seconds 99
+d1-omni 3076 / 3400 rows 4676 seconds 99
+d1-omni 3101 / 3400 rows 4701 seconds 100
+d1-omni 3126 / 3400 rows 4726 seconds 100
+d1-omni 3151 / 3400 rows 4751 seconds 101
+d1-omni 3176 / 3400 rows 4776 seconds 102
+d1-omni 3201 / 3400 rows 4801 seconds 102
+d1-omni 3226 / 3400 rows 4826 seconds 103
+d1-omni 3251 / 3400 rows 4851 seconds 103
+d1-omni 3276 / 3400 rows 4876 seconds 104
+d1-omni 3301 / 3400 rows 4901 seconds 105
+d1-omni 3326 / 3400 rows 4926 seconds 106
+d1-omni 3351 / 3400 rows 4951 seconds 106
+d1-omni 3376 / 3400 rows 4976 seconds 107
+{
+  "model": "d1-omni",
+  "actual_rows": 5000,
+  "expected_rows": 5000,
+  "complete": true
+}
+
+EXIT CODE: 0

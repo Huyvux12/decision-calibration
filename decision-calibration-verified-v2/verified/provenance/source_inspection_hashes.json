@@ -1,0 +1,54 @@
+[
+  {
+    "file": "d1-3B_README.md",
+    "sha256": "175b0bd5f0b4272a67723e16d5e1994e7a8c2d162e7797c9f1c24c01fed83f1d"
+  },
+  {
+    "file": "d1-omni-600M_vision.py",
+    "sha256": "43ad71029f82e20fd26b97574627773d47639d7a3742c8b04fe5bf55f41c4c28"
+  },
+  {
+    "file": "d1-omni-600M_README.md",
+    "sha256": "6577bee7b8cb23b595a90e99aa82007f57214d447f0ebcdfb2e812a7123d57bf"
+  },
+  {
+    "file": "d1-omni-600M_encoder.py",
+    "sha256": "5f2e20319ee42a7367febf06c7653d7b3f9b28ef99a64cb9ec7739563dcfcffe"
+  },
+  {
+    "file": "d1-3B_lfm2_vl.py",
+    "sha256": "f9e8d3354572a169237865283594b0364209fdb858901121b9f99147328b5d95"
+  },
+  {
+    "file": "d1-3B_prompt.py",
+    "sha256": "a20b5f52e41a6d29e694bb8c861a5a4803ce3eb69364edad79511ccf8edb5c31"
+  },
+  {
+    "file": "d1-3B_hybrid.py",
+    "sha256": "ce579827b952a6978a3560f70e74be9e228f9029de46048996b0c5f58d7f1f39"
+  },
+  {
+    "file": "d1-omni-600M_audio.py",
+    "sha256": "c5ff09d52d6a079e79d0505c89dbd0582ba2bc9abf2b26595d8d5b1d0c347bdf"
+  },
+  {
+    "file": "d1-3B_modeling_d1.py",
+    "sha256": "7fc6a001f80fc2d146f2a51128478f3b3bd4f1423a3ac129bc10f3fd0caf1d98"
+  },
+  {
+    "file": "d1-omni-600M_prompt.py",
+    "sha256": "a6b29a55ec8345f1fc1fdbfcc4b64d80d473dc4316f095a62c51cb6cce1194cf"
+  },
+  {
+    "file": "d1-omni-600M_modeling_d1.py",
+    "sha256": "2b71a5c909ec5d3aa6307378a41a0fd24af1e17d5c1c1f8d510582147051a686"
+  },
+  {
+    "file": "d1-3B_api.py",
+    "sha256": "94e9f82eabfdf92c4abe1153e9a6dc4dd9821f9cc2fec3221e79e70723d8ada0"
+  },
+  {
+    "file": "d1-3B_runner.py",
+    "sha256": "24d3ae718e9f9717771c0df39c93d324d00aa27bf3e12bab085c0922096cb0dd"
+  }
+]

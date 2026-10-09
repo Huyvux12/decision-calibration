@@ -1,0 +1,172 @@
+{
+  "d1-omni/fit_indom20/global": {
+    "all": 1.6397
+  },
+  "d1-omni/fit_indom20/per_type": {
+    "score": 2.3489,
+    "choice": 0.9853,
+    "noul": 1.4314
+  },
+  "d1-omni/fit_indom20/per_task": {
+    "('typed_agent_trace_observability', 'score')": 3.4389,
+    "('typed_agent_trace_observability', 'choice')": 0.6364,
+    "('typed_agent_trace_observability', 'noul')": 0.7859,
+    "('typed_customer_service', 'choice')": 1.512,
+    "('typed_customer_service', 'score')": 3.022,
+    "('typed_customer_service', 'noul')": 2.7472,
+    "('typed_invoice_processing', 'noul')": 0.8978,
+    "('typed_invoice_processing', 'score')": 1.4071,
+    "('typed_invoice_processing', 'choice')": 1.1621,
+    "('typed_security_incidents', 'noul')": 3.0962,
+    "('typed_security_incidents', 'score')": 1.1009,
+    "('typed_security_incidents', 'choice')": 0.358
+  },
+  "d1-omni/fit_ood50/global": {
+    "all": 1.4099
+  },
+  "d1-omni/fit_ood50/per_type": {
+    "choice": 1.1396,
+    "noul": 1.6132
+  },
+  "d1-omni/fit_ood50/per_task": {
+    "('ood_agnews', 'choice')": 1.1396,
+    "('ood_rotten', 'noul')": 2.3645,
+    "('ood_sst2', 'noul')": 1.2986
+  },
+  "d1-3b/fit_indom20/global": {
+    "all": 1.2504
+  },
+  "d1-3b/fit_indom20/per_type": {
+    "score": 1.1408,
+    "choice": 1.3724,
+    "noul": 1.2303
+  },
+  "d1-3b/fit_indom20/per_task": {
+    "('typed_agent_trace_observability', 'score')": 1.2289,
+    "('typed_agent_trace_observability', 'choice')": 2.8194,
+    "('typed_agent_trace_observability', 'noul')": 0.945,
+    "('typed_customer_service', 'choice')": 1.4668,
+    "('typed_customer_service', 'score')": 1.0551,
+    "('typed_customer_service', 'noul')": 2.1352,
+    "('typed_invoice_processing', 'noul')": 0.412,
+    "('typed_invoice_processing', 'score')": 1.6122,
+    "('typed_invoice_processing', 'choice')": 0.9081,
+    "('typed_security_incidents', 'noul')": 2.317,
+    "('typed_security_incidents', 'score')": 0.6073,
+    "('typed_security_incidents', 'choice')": 0.7159
+  },
+  "d1-3b/fit_ood50/global": {
+    "all": 0.997
+  },
+  "d1-3b/fit_ood50/per_type": {
+    "choice": 1.0213,
+    "noul": 0.9793
+  },
+  "d1-3b/fit_ood50/per_task": {
+    "('ood_agnews', 'choice')": 1.0213,
+    "('ood_rotten', 'noul')": 1.3378,
+    "('ood_sst2', 'noul')": 0.8216
+  },
+  "opendecider-small/fit_indom20/global": {
+    "all": 0.7075
+  },
+  "opendecider-small/fit_indom20/per_type": {
+    "score": 0.5948,
+    "choice": 0.6863,
+    "noul": 1.0908
+  },
+  "opendecider-small/fit_indom20/per_task": {
+    "('typed_agent_trace_observability', 'score')": 1.0013,
+    "('typed_agent_trace_observability', 'choice')": 0.4787,
+    "('typed_agent_trace_observability', 'noul')": 1.6176,
+    "('typed_customer_service', 'choice')": 0.9694,
+    "('typed_customer_service', 'score')": 0.574,
+    "('typed_customer_service', 'noul')": 2.1392,
+    "('typed_invoice_processing', 'noul')": 0.2752,
+    "('typed_invoice_processing', 'score')": 0.4621,
+    "('typed_invoice_processing', 'choice')": 0.5624,
+    "('typed_security_incidents', 'noul')": 1.3729,
+    "('typed_security_incidents', 'score')": 0.4172,
+    "('typed_security_incidents', 'choice')": 0.5335
+  },
+  "opendecider-small/fit_ood50/global": {
+    "all": 0.86
+  },
+  "opendecider-small/fit_ood50/per_type": {
+    "choice": 0.8913,
+    "noul": 0.8312
+  },
+  "opendecider-small/fit_ood50/per_task": {
+    "('ood_agnews', 'choice')": 0.8913,
+    "('ood_rotten', 'noul')": 1.3919,
+    "('ood_sst2', 'noul')": 0.5928
+  },
+  "jeff-2b/fit_indom20/global": {
+    "all": 1.4755
+  },
+  "jeff-2b/fit_indom20/per_type": {
+    "score": 1.406,
+    "choice": 1.4593,
+    "noul": 1.7084
+  },
+  "jeff-2b/fit_indom20/per_task": {
+    "('typed_agent_trace_observability', 'score')": 1.5104,
+    "('typed_agent_trace_observability', 'choice')": 0.8389,
+    "('typed_agent_trace_observability', 'noul')": 4.3097,
+    "('typed_customer_service', 'choice')": 1.6055,
+    "('typed_customer_service', 'score')": 1.2991,
+    "('typed_customer_service', 'noul')": 2.9509,
+    "('typed_invoice_processing', 'noul')": 2.0368,
+    "('typed_invoice_processing', 'score')": 1.97,
+    "('typed_invoice_processing', 'choice')": 2.5695,
+    "('typed_security_incidents', 'noul')": 1.0027,
+    "('typed_security_incidents', 'score')": 0.5845,
+    "('typed_security_incidents', 'choice')": 0.6803
+  },
+  "jeff-2b/fit_ood50/global": {
+    "all": 1.38
+  },
+  "jeff-2b/fit_ood50/per_type": {
+    "choice": 1.2694,
+    "noul": 1.4587
+  },
+  "jeff-2b/fit_ood50/per_task": {
+    "('ood_agnews', 'choice')": 1.2694,
+    "('ood_rotten', 'noul')": 2.2877,
+    "('ood_sst2', 'noul')": 1.1748
+  },
+  "jeff-0.8b/fit_indom20/global": {
+    "all": 2.6166
+  },
+  "jeff-0.8b/fit_indom20/per_type": {
+    "score": 4.0268,
+    "choice": 1.8739,
+    "noul": 4.0002
+  },
+  "jeff-0.8b/fit_indom20/per_task": {
+    "('typed_agent_trace_observability', 'score')": 4.012,
+    "('typed_agent_trace_observability', 'choice')": 1.5589,
+    "('typed_agent_trace_observability', 'noul')": 3.9847,
+    "('typed_customer_service', 'choice')": 1.6747,
+    "('typed_customer_service', 'score')": 1.9879,
+    "('typed_customer_service', 'noul')": 10.0,
+    "('typed_invoice_processing', 'noul')": 4.7719,
+    "('typed_invoice_processing', 'score')": 4.6557,
+    "('typed_invoice_processing', 'choice')": 4.2156,
+    "('typed_security_incidents', 'noul')": 2.0149,
+    "('typed_security_incidents', 'score')": 10.0,
+    "('typed_security_incidents', 'choice')": 0.5312
+  },
+  "jeff-0.8b/fit_ood50/global": {
+    "all": 1.3707
+  },
+  "jeff-0.8b/fit_ood50/per_type": {
+    "choice": 1.6238,
+    "noul": 1.1736
+  },
+  "jeff-0.8b/fit_ood50/per_task": {
+    "('ood_agnews', 'choice')": 1.6238,
+    "('ood_rotten', 'noul')": 1.4456,
+    "('ood_sst2', 'noul')": 1.0835
+  }
+}

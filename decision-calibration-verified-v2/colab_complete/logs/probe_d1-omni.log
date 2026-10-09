@@ -1,0 +1,106 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/run_extension.py'), '--model', 'd1-omni', '--out', PosixPath('/content/decision_calibration_verified_v2/extension_output'), '--quota', 250, '--yelp-per-class', 200, '--include-typed', '--probe']
+Cloning into '/content/decision_calibration_verified_v2/extension_output/jeff_src'...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 300 examples [00:00, 21768.24 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 100 examples [00:00, 13136.76 examples/s]
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 300 examples [00:00, 26922.81 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 100 examples [00:00, 14370.45 examples/s]
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 300 examples [00:00, 28535.27 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 100 examples [00:00, 14869.20 examples/s]
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 300 examples [00:00, 28216.60 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 100 examples [00:00, 13421.34 examples/s]
+
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split:  61%|██████    | 73000/120000 [00:00<00:00, 706641.42 examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 760607.01 examples/s]
+
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 667617.03 examples/s]
+
+Generating train split:   0%|          | 0/8530 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 8530/8530 [00:00<00:00, 833486.62 examples/s]
+
+Generating validation split:   0%|          | 0/1066 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 1066/1066 [00:00<00:00, 331317.38 examples/s]
+
+Generating test split:   0%|          | 0/1066 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 1066/1066 [00:00<00:00, 372097.87 examples/s]
+
+Generating train split:   0%|          | 0/67349 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 67349/67349 [00:00<00:00, 1151968.18 examples/s]
+
+Generating validation split:   0%|          | 0/872 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 872/872 [00:00<00:00, 295693.52 examples/s]
+
+Generating test split:   0%|          | 0/1821 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 1821/1821 [00:00<00:00, 473722.48 examples/s]
+
+Generating train split:   0%|          | 0/650000 [00:00<?, ? examples/s]
+Generating train split:   2%|▏         | 12000/650000 [00:00<00:05, 116269.71 examples/s]
+Generating train split:   5%|▌         | 34000/650000 [00:00<00:03, 172640.65 examples/s]
+Generating train split:   9%|▉         | 57000/650000 [00:00<00:03, 191163.03 examples/s]
+Generating train split:  13%|█▎        | 82000/650000 [00:00<00:02, 211613.51 examples/s]
+Generating train split:  18%|█▊        | 117000/650000 [00:00<00:02, 257997.39 examples/s]
+Generating train split:  23%|██▎       | 150000/650000 [00:00<00:01, 268360.64 examples/s]
+Generating train split:  28%|██▊       | 183000/650000 [00:00<00:01, 244367.24 examples/s]
+Generating train split:  32%|███▏      | 208000/650000 [00:00<00:01, 244073.14 examples/s]
+Generating train split:  36%|███▌      | 234000/650000 [00:01<00:01, 244084.51 examples/s]
+Generating train split:  42%|████▏     | 271000/650000 [00:01<00:01, 243971.44 examples/s]
+Generating train split:  47%|████▋     | 307000/650000 [00:01<00:01, 239268.75 examples/s]
+Generating train split:  52%|█████▏    | 335000/650000 [00:01<00:01, 246444.94 examples/s]
+Generating train split:  56%|█████▌    | 364000/650000 [00:01<00:01, 243790.15 examples/s]
+Generating train split:  61%|██████    | 395000/650000 [00:01<00:00, 258612.22 examples/s]
+Generating train split:  66%|██████▌   | 428000/650000 [00:01<00:00, 274567.35 examples/s]
+Generating train split:  72%|███████▏  | 468000/650000 [00:01<00:00, 268843.58 examples/s]
+Generating train split:  77%|███████▋  | 499000/650000 [00:01<00:00, 278736.73 examples/s]
+Generating train split:  83%|████████▎ | 540000/650000 [00:02<00:00, 235373.70 examples/s]
+Generating train split:  88%|████████▊ | 570000/650000 [00:02<00:00, 248604.88 examples/s]
+Generating train split:  94%|█████████▎| 609000/650000 [00:02<00:00, 248672.24 examples/s]
+Generating train split:  99%|█████████▊| 641000/650000 [00:02<00:00, 263105.29 examples/s]
+Generating train split: 100%|██████████| 650000/650000 [00:02<00:00, 247442.87 examples/s]
+
+Generating test split:   0%|          | 0/50000 [00:00<?, ? examples/s]
+Generating test split:  50%|█████     | 25000/50000 [00:00<00:00, 234300.86 examples/s]
+Generating test split:  98%|█████████▊| 49000/50000 [00:03<00:00, 12186.86 examples/s] 
+Generating test split: 100%|██████████| 50000/50000 [00:03<00:00, 14539.88 examples/s]
+
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]
+Fetching 12 files:   8%|▊         | 1/12 [00:00<00:01,  7.87it/s]
+Fetching 12 files:  67%|██████▋   | 8/12 [00:00<00:00, 35.75it/s]
+Fetching 12 files:  92%|█████████▏| 11/12 [00:17<00:00, 35.75it/s]
+Fetching 12 files: 100%|██████████| 12/12 [00:17<00:00,  1.90s/it]
+Fetching 12 files: 100%|██████████| 12/12 [00:17<00:00,  1.50s/it]
+
+Loading weights:   0%|          | 0/1084 [00:00<?, ?it/s]
+Loading weights:  20%|██        | 222/1084 [00:00<00:00, 2188.61it/s]
+Loading weights:  42%|████▏     | 459/1084 [00:00<00:00, 2273.89it/s]
+Loading weights:  64%|██████▍   | 698/1084 [00:00<00:00, 2278.70it/s]
+Loading weights:  85%|████████▌ | 926/1084 [00:00<00:00, 791.53it/s] 
+Loading weights: 100%|█████████▉| 1080/1084 [00:01<00:00, 868.15it/s]
+Loading weights: 100%|██████████| 1084/1084 [00:01<00:00, 1058.37it/s]
+d1-omni 1 / 8 rows 5 seconds 2
+{
+  "model": "d1-omni",
+  "actual_rows": 24,
+  "expected_rows": 24,
+  "complete": true
+}
+
+EXIT CODE: 0

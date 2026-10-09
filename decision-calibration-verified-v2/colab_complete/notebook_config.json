@@ -1,0 +1,13 @@
+{
+  "RUN_GPU_EXTENSION": true,
+  "MODELS_TO_RUN": [
+    "d1-omni",
+    "d1-3b"
+  ],
+  "QUOTA_PER_CLASS": 250,
+  "YELP_PER_CLASS": 200,
+  "N_SPLIT_SEEDS": 20,
+  "N_BOOTSTRAP": 1000,
+  "USE_DRIVE": false,
+  "payload_sha256": "fc26eb095c67ddb1a95e0d5aedcb19319da7b256b5a30478df58a866cc955f02"
+}

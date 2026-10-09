@@ -1,0 +1,9 @@
+{
+  "model": "d1-omni",
+  "out": "/content/decision_calibration_verified_v2/extension_output",
+  "quota": 250,
+  "yelp_per_class": 200,
+  "include_typed": true,
+  "probe": true,
+  "cases_sha256": "d30ea7f3161c4fa6fb273d12e90b86ccb40ed902d77871e5fc58e719293d1f8b"
+}

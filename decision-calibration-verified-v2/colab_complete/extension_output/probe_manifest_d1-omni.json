@@ -1,0 +1,82 @@
+{
+  "model": "d1-omni",
+  "repo": "LiquidAI/d1-omni-600M",
+  "revision": "02b55d7076f15129e59ab3f94783f32c4b088674",
+  "cases_sha256": "d30ea7f3161c4fa6fb273d12e90b86ccb40ed902d77871e5fc58e719293d1f8b",
+  "expected_rows": 24,
+  "actual_rows": 24,
+  "missing": [],
+  "errors": [],
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "datasets": "5.1.0",
+    "huggingface_hub": "1.33.0",
+    "safetensors": "0.8.0"
+  },
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "gpu": "Tesla T4",
+  "peak_gpu_bytes": 1280890368,
+  "elapsed_seconds": 2.7558462619781494,
+  "datasets": {
+    "LocalLLaMA/typed-decisions/agent_trace_observability/test": {
+      "revision": "e039ebffcc280174dd354227424fb2b249f191de",
+      "fingerprint": "a22c99550fba2e72",
+      "n_source": 100
+    },
+    "LocalLLaMA/typed-decisions/customer_service/test": {
+      "revision": "e039ebffcc280174dd354227424fb2b249f191de",
+      "fingerprint": "728f8495350e3335",
+      "n_source": 100
+    },
+    "LocalLLaMA/typed-decisions/invoice_processing/test": {
+      "revision": "e039ebffcc280174dd354227424fb2b249f191de",
+      "fingerprint": "009980813e761c11",
+      "n_source": 100
+    },
+    "LocalLLaMA/typed-decisions/security_incidents/test": {
+      "revision": "e039ebffcc280174dd354227424fb2b249f191de",
+      "fingerprint": "2147bb44adecbaca",
+      "n_source": 100
+    },
+    "fancyzhx/ag_news/None/test": {
+      "revision": "eb185aade064a813bc0b7f42de02595523103ca4",
+      "fingerprint": "0ebcc57b6aea2fc9",
+      "n_source": 7600
+    },
+    "cornell-movie-review-data/rotten_tomatoes/None/test": {
+      "revision": "aa13bc287fa6fcab6daf52f0dfb9994269ffea28",
+      "fingerprint": "23aa2ff3ad95b6f5",
+      "n_source": 1066
+    },
+    "nyu-mll/glue/sst2/validation": {
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "fingerprint": "0e2b00033b48693f",
+      "n_source": 872
+    },
+    "Yelp/yelp_review_full/None/test": {
+      "revision": "c1f9ee939b7d05667af864ee1cb066393154bf85",
+      "fingerprint": "78a2e2037d93590d",
+      "n_source": 50000
+    }
+  },
+  "complete": true,
+  "explicit_config_temperatures": {
+    "choice:11+": 1.372515082359314,
+    "choice:2": 1.7465145587921143,
+    "choice:3-5": 1.3998981714248657,
+    "choice:6-10": 1.1751071214675903,
+    "noul:2": 1.6663223505020142,
+    "score:3-5": 1.7301132678985596,
+    "score:6-10": 1.0,
+    "choice": 1.0,
+    "score": 1.0,
+    "noul": 1.0
+  },
+  "raw_arm": {
+    "path": "/content/decision_calibration_verified_v2/extension_output/raw_probe_d1-omni.csv",
+    "method": "Inverse of explicit shipped temperature; text only; limited by float precision"
+  }
+}

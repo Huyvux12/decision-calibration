@@ -1,0 +1,9 @@
+{
+  "model": "d1-3b",
+  "out": "/content/decision_calibration_verified_v2/extension_output",
+  "quota": 250,
+  "yelp_per_class": 200,
+  "include_typed": true,
+  "probe": false,
+  "cases_sha256": "318f199b56cdc08d6db9865edbf73d8264017fe48dc909a550f7fde6aa54ee43"
+}

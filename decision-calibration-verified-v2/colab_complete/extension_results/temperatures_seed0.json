@@ -1,0 +1,46 @@
+{
+  "d1-omni/global": {
+    "all": 1.4346825757045956
+  },
+  "d1-omni/per_type": {
+    "choice": 1.2493886796711666,
+    "noul": 1.1171728774623515,
+    "score": 1.68184963420052
+  },
+  "d1-omni/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 0.7810898795274487,
+    "('typed_agent_trace_observability', 'noul')": 1.2486028780902816,
+    "('typed_agent_trace_observability', 'score')": 1.9576653215313897,
+    "('typed_customer_service', 'choice')": 1.7516683954533467,
+    "('typed_customer_service', 'score')": 2.0233434360970644,
+    "('typed_customer_service', 'noul')": 0.31697688728523804,
+    "('typed_invoice_processing', 'score')": 1.8349128678223625,
+    "('typed_invoice_processing', 'choice')": 1.2417330016373416,
+    "('typed_invoice_processing', 'noul')": 1.0746464037201973,
+    "('typed_security_incidents', 'noul')": 1.9914165796185972,
+    "('typed_security_incidents', 'choice')": 0.6300469146788744,
+    "('typed_security_incidents', 'score')": 0.8626286532861887
+  },
+  "d1-3b/global": {
+    "all": 1.1658403538833164
+  },
+  "d1-3b/per_type": {
+    "choice": 1.1342586559857661,
+    "noul": 0.9658761323383277,
+    "score": 1.2892038832268315
+  },
+  "d1-3b/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 2.0260514586164566,
+    "('typed_agent_trace_observability', 'noul')": 0.8964640025577331,
+    "('typed_agent_trace_observability', 'score')": 1.1832380506942761,
+    "('typed_customer_service', 'choice')": 0.9760331144809172,
+    "('typed_customer_service', 'score')": 0.9764137042283261,
+    "('typed_customer_service', 'noul')": 0.8006846768072264,
+    "('typed_invoice_processing', 'score')": 2.0603408187929295,
+    "('typed_invoice_processing', 'choice')": 1.087717465901896,
+    "('typed_invoice_processing', 'noul')": 0.5232623488655547,
+    "('typed_security_incidents', 'noul')": 1.6445596502268929,
+    "('typed_security_incidents', 'choice')": 0.6637578869415744,
+    "('typed_security_incidents', 'score')": 0.7455177998244531
+  }
+}

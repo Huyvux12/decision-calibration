@@ -1,0 +1,14 @@
+# Exclude all zip archives
+*.zip
+
+# Root items not in the requested list
+/Presentation Script*.pdf
+/REPORT.md
+/Decision_Calibration_Verified_Colab.ipynb
+
+# Python bytecode and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/test_verified.py')]
+PASS: 20 case splits disjoint; 11,000 distributions; ties preserved; metric equivalence; soft gold 10,000 decisions; missing group rejected.
+
+EXIT CODE: 0

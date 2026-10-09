@@ -1,0 +1,958 @@
+{
+  "description": "Completed two-d1 Colab export and verified CPU analyses",
+  "cases_sha256": "318f199b56cdc08d6db9865edbf73d8264017fe48dc909a550f7fde6aa54ee43",
+  "files": {
+    "COLAB_RESULTS_VERIFIED.md": {
+      "sha256": "a58a6a3713c3ef622ddce03afadb5ca15592a1219b961178d898543d1d9c913b",
+      "bytes": 7569
+    },
+    "Decision_Calibration_Verified_Colab.ipynb": {
+      "sha256": "765e4310c02b930446423b45c9955e135765a94be50d6c85d56baad8cd6af36f",
+      "bytes": 608869
+    },
+    "PAPER_DRAFT.md": {
+      "sha256": "03fab1ef3e40a52d7c2c1ec44d17e57141a44e142792816cbef727773d43adf5",
+      "bytes": 25095
+    },
+    "README.md": {
+      "sha256": "3fb0e0c364bdbaf1ea9dc169b5afd930071d7a1f91a9527cd751a51b02e41088",
+      "bytes": 2704
+    },
+    "REPORT_FINAL.md": {
+      "sha256": "192335253113419bf47eb1ce04d1cbb5d336d685f77cd155e7ec6774213bebd2",
+      "bytes": 32781
+    },
+    "VERIFY_REPORT.md": {
+      "sha256": "b9c9795ff471d8ed7cbbcf87b5510cf4c983b27e29e460669479f2ac83ba9da5",
+      "bytes": 11796
+    },
+    "checkpoint_omni/analysis/SUMMARY.md": {
+      "sha256": "2b76d9fa0c5b3a19ae3c492aa6772ba15f55b4bb0f4ac8ea1015a1b5093d188d",
+      "bytes": 2240
+    },
+    "checkpoint_omni/analysis/as_shipped_verified.csv": {
+      "sha256": "47783be8f742f682277696a0892f6164d04873155c3df7abbae116c456adef74",
+      "bytes": 2818
+    },
+    "checkpoint_omni/analysis/audit.json": {
+      "sha256": "47cfe40ded81142d75e1e3cf5afcc219a9e6ac659df510ef2a81d9b7a585f4ae",
+      "bytes": 684
+    },
+    "checkpoint_omni/analysis/figures/calibration_delta_ci.pdf": {
+      "sha256": "f4fd75c279efe5d88ec1349078fb51abff497f16bb290aff37398ae34ee7768e",
+      "bytes": 17270
+    },
+    "checkpoint_omni/analysis/figures/calibration_delta_ci.png": {
+      "sha256": "aebe20e9aecb6c88ebe11d1acfa92e6c8dc7fb8c2a95bbacc2d3f6f54523c2ff",
+      "bytes": 78357
+    },
+    "checkpoint_omni/analysis/figures/reliability_case_disjoint.pdf": {
+      "sha256": "f6bad0dad82539d4d04fd4209f9e6d9ddb39b53feb99f7bffb67031a76f58717",
+      "bytes": 21920
+    },
+    "checkpoint_omni/analysis/figures/reliability_case_disjoint.png": {
+      "sha256": "3b925a3bf176eeee54c06dda0052d7eb458651ecbcbda8aeb8cbac33c7f1f661",
+      "bytes": 127917
+    },
+    "checkpoint_omni/analysis/leave_one_workflow_out.csv": {
+      "sha256": "27603dd7074d7b19680e430f97b706e5ef741731b05e130d6f1fa4da94937af9",
+      "bytes": 20770
+    },
+    "checkpoint_omni/analysis/paired_cluster_bootstrap.csv": {
+      "sha256": "e6ab70fd642490b7deea2f92f61a78183aa04de5447498582d10dda57a83c6c9",
+      "bytes": 8099
+    },
+    "checkpoint_omni/analysis/repeated_group_split.csv": {
+      "sha256": "11ce029e934c8c0a527742d7d1ef75bf0cc972ab3d3a03ea215b1648d1ce30ab",
+      "bytes": 334555
+    },
+    "checkpoint_omni/analysis/repeated_summary.json": {
+      "sha256": "1c962f6529a0df2b1330a1def4b20e59e157ee527b1abe628815184d02700b41",
+      "bytes": 1297
+    },
+    "checkpoint_omni/analysis/run_config.json": {
+      "sha256": "715576d82158a07deca935fcb9529a40359bf7eb736eead0f61dd50d8a9af933",
+      "bytes": 526
+    },
+    "checkpoint_omni/analysis/splits_seed0.json": {
+      "sha256": "aee06767aa31aaaab253d96cebd3ab7c78ac3a912b0cf9938e2c8def7b3b0641",
+      "bytes": 36678
+    },
+    "checkpoint_omni/analysis/temperatures_seed0.json": {
+      "sha256": "9b03c5c392d40818d81160a9a8616c15d7b1f0f55a2db600d95a6a4e7e251f05",
+      "bytes": 1008
+    },
+    "checkpoint_omni/analyze_checkpoint.py": {
+      "sha256": "2a4731b0737062460e2de2ed43b513d004fbd095bd6abfe09518ecff91058d83",
+      "bytes": 6094
+    },
+    "checkpoint_omni/existing_results/SUMMARY.md": {
+      "sha256": "30656a8cfc006bfe1efd40f0c6b905b17b440301ea7184d9f5574a80fb76cd1c",
+      "bytes": 7881
+    },
+    "checkpoint_omni/existing_results/as_shipped_verified.csv": {
+      "sha256": "bf4cfb8eb6ffdd8b11d5a37edce3955612616ce216adb8a21d763ddbb3e5bda1",
+      "bytes": 11772
+    },
+    "checkpoint_omni/existing_results/audit.json": {
+      "sha256": "f584cc7f081fc959a94c1a7fea3717c4cb2ed31af6ac55567b81bd74ce13f96d",
+      "bytes": 2747
+    },
+    "checkpoint_omni/existing_results/figures/calibration_delta_ci.pdf": {
+      "sha256": "bddf1584bf85ec19ac8943b1058f194bccb20287acad1c14005496458261b2ff",
+      "bytes": 22705
+    },
+    "checkpoint_omni/existing_results/figures/calibration_delta_ci.png": {
+      "sha256": "1734d6c35b0b5788ef223aab782b66a92acdc18e5056ca1052a531eb44d4b8c0",
+      "bytes": 125065
+    },
+    "checkpoint_omni/existing_results/figures/reliability_case_disjoint.pdf": {
+      "sha256": "d326bf9f23ce46e8170ecabad684a8d366fcfb55fc70b7a6120c73c61352bee2",
+      "bytes": 49015
+    },
+    "checkpoint_omni/existing_results/figures/reliability_case_disjoint.png": {
+      "sha256": "7a47e24beb0dd9d6b94deea6348ebaa3915780f007002251af273d5866413ee0",
+      "bytes": 617723
+    },
+    "checkpoint_omni/existing_results/leave_one_workflow_out.csv": {
+      "sha256": "bcb612687a6a97db50fd2aa48416bb4e817736721f83b868c42ee32447ba0d55",
+      "bytes": 100327
+    },
+    "checkpoint_omni/existing_results/paired_cluster_bootstrap.csv": {
+      "sha256": "f9baa1e8fffe1710e67cc911f381e7282273705f766645be88bd6f84d7a44fa7",
+      "bytes": 40495
+    },
+    "checkpoint_omni/existing_results/repeated_group_split.csv": {
+      "sha256": "56f32dfb296ca4e201deb22ea53667a0269da634019966db246dd6bcb9680412",
+      "bytes": 1501223
+    },
+    "checkpoint_omni/existing_results/repeated_summary.json": {
+      "sha256": "066357649a012dfa8f82fe55c67b8e713c2c4ac7e4bcc58be40e0416b3f00b4c",
+      "bytes": 6525
+    },
+    "checkpoint_omni/existing_results/run_config.json": {
+      "sha256": "fbede55282b8749de016a6e2322bd06f376a13908399be4d7e156376cd7d7469",
+      "bytes": 637
+    },
+    "checkpoint_omni/existing_results/splits_seed0.json": {
+      "sha256": "dadd6f701f8877f7310a3e575dcd5a994a01235582f8dc8dd436bf07aedf795f",
+      "bytes": 183392
+    },
+    "checkpoint_omni/existing_results/temperatures_seed0.json": {
+      "sha256": "9216228a25808a74b7e00e22f99d6c867e5404b769ba3291f383d9097e823fdf",
+      "bytes": 5037
+    },
+    "checkpoint_omni/extension_output/cases.jsonl": {
+      "sha256": "318f199b56cdc08d6db9865edbf73d8264017fe48dc909a550f7fde6aa54ee43",
+      "bytes": 3534409
+    },
+    "checkpoint_omni/extension_output/cases_probe.jsonl": {
+      "sha256": "d30ea7f3161c4fa6fb273d12e90b86ccb40ed902d77871e5fc58e719293d1f8b",
+      "bytes": 14960
+    },
+    "checkpoint_omni/extension_output/config_d1-omni.json": {
+      "sha256": "b064127cd700446fdbe208f081cedf93af1754a477d1c85105e2ea97927b6325",
+      "bytes": 265
+    },
+    "checkpoint_omni/extension_output/manifest_d1-omni.json": {
+      "sha256": "42ff43cdcf5d65f44c12f1313a128a76c6e97ec46d7c5c7acba0a884004e0441",
+      "bytes": 2730
+    },
+    "checkpoint_omni/extension_output/predictions_d1-omni.csv": {
+      "sha256": "a71e4447ea680743896deaf644faa588335c44c55076ee996a8a9a0964d2960a",
+      "bytes": 981313
+    },
+    "checkpoint_omni/extension_output/probe_/config_d1-omni.json": {
+      "sha256": "196a718d66cc78c935313af8dc629351f334ae9468c130ae837fc8d69f66f36f",
+      "bytes": 264
+    },
+    "checkpoint_omni/extension_output/probe_d1-omni.csv": {
+      "sha256": "cd5297a49de95e7477595dbebfe0083efb70314f5b441fe8f4fbc5eeaffd5be6",
+      "bytes": 5394
+    },
+    "checkpoint_omni/extension_output/probe_manifest_d1-omni.json": {
+      "sha256": "3ba006931ed99324c9480614f4f881d0ed883b6556004b27d8a3a935d59ff931",
+      "bytes": 2720
+    },
+    "checkpoint_omni/extension_output/raw_predictions_d1-omni.csv": {
+      "sha256": "a1ae388ba084d60bc8d307f61c0f3459f12233193bc0d6a00e54b9ef8a98ce9c",
+      "bytes": 987107
+    },
+    "checkpoint_omni/extension_output/raw_probe_d1-omni.csv": {
+      "sha256": "76835f0cc10d7e72f225ae373c5cfd6d9566c011b9d93fa5990b21219b4ef0b3",
+      "bytes": 5408
+    },
+    "checkpoint_omni/extension_output/raw_vs_shipped_omni.csv": {
+      "sha256": "0c0c2a5c6a3c7d1009bd51d6e7e32d2be16de24d9aa674aae95b91cc1c003fa4",
+      "bytes": 9348
+    },
+    "checkpoint_omni/extension_output/resolved_revisions.json": {
+      "sha256": "3adf768f10c5abf8652ab050026d05345ebecee15f87726f8d8ae06174e9619d",
+      "bytes": 1064
+    },
+    "checkpoint_omni/logs/existing_analysis.log": {
+      "sha256": "780b2a06fa5d3f42e129b53782d854ec0d0edf15d419f25b478e3e6a47f6f02f",
+      "bytes": 3361
+    },
+    "checkpoint_omni/logs/existing_figures.log": {
+      "sha256": "b2dfa6a8d4aa9ae2d25872448fe7fea4246059d92f5c83ee30e2d02f18e251b1",
+      "bytes": 269
+    },
+    "checkpoint_omni/logs/existing_summary.log": {
+      "sha256": "b4af4509d5702e89be9adaba8e79f0345d96b776831dda5058c80d02b9e01fe9",
+      "bytes": 269
+    },
+    "checkpoint_omni/logs/inference_d1-omni.log": {
+      "sha256": "9246c2acc22b5c9b915207291d54b67443091d4b4a4ce08c36defad0e388b5b5",
+      "bytes": 6759
+    },
+    "checkpoint_omni/logs/probe_d1-omni.log": {
+      "sha256": "ca3d695ba288d1f18ece2c652964ee62d658606a65ec55a6d5e79f4d212c5add",
+      "bytes": 6920
+    },
+    "checkpoint_omni/logs/regression.log": {
+      "sha256": "68c29a6f257a0660f1ca9ab8d06e7a37bb3aa828181f8c4b2cd343e27e2b1f0a",
+      "bytes": 262
+    },
+    "checkpoint_omni/taskwise/audit.json": {
+      "sha256": "a00937aa4c891b4f835e68ffd3b8de75410ef935dcb2327a0dafe0093ee33375",
+      "bytes": 480
+    },
+    "checkpoint_omni/taskwise/fit_temperatures_seed0.json": {
+      "sha256": "8127a69cb5efc07d242126e9753e7a481540de5e42e296dfeffe43ca2e036bb6",
+      "bytes": 168
+    },
+    "checkpoint_omni/taskwise/taskwise_bootstrap.csv": {
+      "sha256": "96434752b570ceed9ab8f3c27eb8dc17b2e4e154c86ac28d541426352f593a28",
+      "bytes": 4364
+    },
+    "checkpoint_omni/taskwise/taskwise_metrics.csv": {
+      "sha256": "2745b4305193a2d2b52467b736ab1084860010fee4db0bd79a10ea39041267b5",
+      "bytes": 18687
+    },
+    "checkpoint_omni/taskwise/taskwise_repeated_splits.csv": {
+      "sha256": "07d6b910718c1b0ebe0d7eda372666e0f1051bfd83cbb005659e52faf5b1801a",
+      "bytes": 103380
+    },
+    "colab_complete/COLAB_RESULTS_VERIFIED.md": {
+      "sha256": "a58a6a3713c3ef622ddce03afadb5ca15592a1219b961178d898543d1d9c913b",
+      "bytes": 7569
+    },
+    "colab_complete/analyze_tasks.py": {
+      "sha256": "f4a9c040d6dc8c750e49c50cdaeb40d5eae1e68a3a495f0727cd3203ab4d2d9a",
+      "bytes": 5040
+    },
+    "colab_complete/executed_source/PAPER_DRAFT.md": {
+      "sha256": "a94bd48ff0bd6e0d11b4014445b0c00c56078496c34cdcda0a7332001e8b13a9",
+      "bytes": 19061
+    },
+    "colab_complete/executed_source/README.md": {
+      "sha256": "6927ea86645bd79d4109e4e5e8769d36fb2f4e82fa000073f4026012f6025431",
+      "bytes": 4616
+    },
+    "colab_complete/executed_source/VERIFY_REPORT.md": {
+      "sha256": "b9c9795ff471d8ed7cbbcf87b5510cf4c983b27e29e460669479f2ac83ba9da5",
+      "bytes": 11796
+    },
+    "colab_complete/executed_source/decision_calib/__init__.py": {
+      "sha256": "47460cc007c9621b41ee9c0624f516ea7eb7a2d7726463efd2312acfea070028",
+      "bytes": 392
+    },
+    "colab_complete/executed_source/decision_calib/calibrate.py": {
+      "sha256": "6ff3371073a86d30045f67f2409dc2817029a4dbc1eda168311077dc7a3a17eb",
+      "bytes": 2584
+    },
+    "colab_complete/executed_source/decision_calib/datasets.py": {
+      "sha256": "80bd3a82232c652445d802761a23bce15c7615c0f2aa1b95f0bdd4e9ea68ebce",
+      "bytes": 5037
+    },
+    "colab_complete/executed_source/decision_calib/metrics.py": {
+      "sha256": "d703153ec42ecbd023751ab7df28786bc5bac10975c8c3358751297d94f654ee",
+      "bytes": 3690
+    },
+    "colab_complete/executed_source/decision_calib/models.py": {
+      "sha256": "97be5149e371101150c4f1d6d670c52d69d2ba1754c119c90dbfead0431274c1",
+      "bytes": 11591
+    },
+    "colab_complete/executed_source/scripts/analyze_raw_arm.py": {
+      "sha256": "d2ee4f6836db3e9e0f6e4975be9a4c9f62a46448fa92d7a5dacfb4c2a1ed6061",
+      "bytes": 811
+    },
+    "colab_complete/executed_source/scripts/build_bundle.py": {
+      "sha256": "8e1112a4e927df8186734e4a069637b91a98828b4620bffac58f45e86d4314a4",
+      "bytes": 2421
+    },
+    "colab_complete/executed_source/scripts/make_figures.py": {
+      "sha256": "b53e24e08fdc3368aa30306b4f8bdcd3fc5f9492b34cf48f1dda8a4ebb5e93b0",
+      "bytes": 3599
+    },
+    "colab_complete/executed_source/scripts/make_verified_figures.py": {
+      "sha256": "012e09c85fd223950eb15b5f0f81cd4b1615515910b3a331f816f9773e30fe9c",
+      "bytes": 2815
+    },
+    "colab_complete/executed_source/scripts/run_extension.py": {
+      "sha256": "d515b1498b9ef5ab4e216e0d74048beff09c0cfc0bbbd2d2d134587c3d9f015d",
+      "bytes": 12296
+    },
+    "colab_complete/executed_source/scripts/run_measure.py": {
+      "sha256": "cb0467a50e44d49c3e1af98c589c568d80d5fb0e41c2051b46a6323b3864eb87",
+      "bytes": 4785
+    },
+    "colab_complete/executed_source/scripts/run_rq2.py": {
+      "sha256": "fcc40c1677a8b9d9b9463a373a8c8e163746e1e22187a24f33b093c86a5fd406",
+      "bytes": 8044
+    },
+    "colab_complete/executed_source/scripts/smoke_test.py": {
+      "sha256": "fba19f969059558592f1c329b57b9cd47319139cec75a8d18baa9902bc79ae4b",
+      "bytes": 7178
+    },
+    "colab_complete/executed_source/scripts/summarize_verified.py": {
+      "sha256": "78e03f5349bdf2aa30f59a20f593916989e68f28dfc83cd6941b45082fa22fc4",
+      "bytes": 2965
+    },
+    "colab_complete/executed_source/scripts/test_extension_io.py": {
+      "sha256": "b5e4e9f4cf13b65e83b1ec614e955dfb2115e37fcec1bb3ab6cb8a190047283c",
+      "bytes": 2575
+    },
+    "colab_complete/executed_source/scripts/test_verified.py": {
+      "sha256": "78ae99ed47d806a43d574b48c54dc62c058c4f0dd03038b56da2606139422d85",
+      "bytes": 1684
+    },
+    "colab_complete/executed_source/scripts/verify_analysis.py": {
+      "sha256": "2fd146f4a8045d040a713d2648171f684ce1c7801304221e0b3a155bb0a090db",
+      "bytes": 13123
+    },
+    "colab_complete/existing_results/SUMMARY.md": {
+      "sha256": "30656a8cfc006bfe1efd40f0c6b905b17b440301ea7184d9f5574a80fb76cd1c",
+      "bytes": 7881
+    },
+    "colab_complete/existing_results/as_shipped_verified.csv": {
+      "sha256": "bf4cfb8eb6ffdd8b11d5a37edce3955612616ce216adb8a21d763ddbb3e5bda1",
+      "bytes": 11772
+    },
+    "colab_complete/existing_results/audit.json": {
+      "sha256": "f584cc7f081fc959a94c1a7fea3717c4cb2ed31af6ac55567b81bd74ce13f96d",
+      "bytes": 2747
+    },
+    "colab_complete/existing_results/figures/calibration_delta_ci.pdf": {
+      "sha256": "bddf1584bf85ec19ac8943b1058f194bccb20287acad1c14005496458261b2ff",
+      "bytes": 22705
+    },
+    "colab_complete/existing_results/figures/calibration_delta_ci.png": {
+      "sha256": "1734d6c35b0b5788ef223aab782b66a92acdc18e5056ca1052a531eb44d4b8c0",
+      "bytes": 125065
+    },
+    "colab_complete/existing_results/figures/reliability_case_disjoint.pdf": {
+      "sha256": "d326bf9f23ce46e8170ecabad684a8d366fcfb55fc70b7a6120c73c61352bee2",
+      "bytes": 49015
+    },
+    "colab_complete/existing_results/figures/reliability_case_disjoint.png": {
+      "sha256": "7a47e24beb0dd9d6b94deea6348ebaa3915780f007002251af273d5866413ee0",
+      "bytes": 617723
+    },
+    "colab_complete/existing_results/leave_one_workflow_out.csv": {
+      "sha256": "bcb612687a6a97db50fd2aa48416bb4e817736721f83b868c42ee32447ba0d55",
+      "bytes": 100327
+    },
+    "colab_complete/existing_results/paired_cluster_bootstrap.csv": {
+      "sha256": "f9baa1e8fffe1710e67cc911f381e7282273705f766645be88bd6f84d7a44fa7",
+      "bytes": 40495
+    },
+    "colab_complete/existing_results/repeated_group_split.csv": {
+      "sha256": "56f32dfb296ca4e201deb22ea53667a0269da634019966db246dd6bcb9680412",
+      "bytes": 1501223
+    },
+    "colab_complete/existing_results/repeated_summary.json": {
+      "sha256": "066357649a012dfa8f82fe55c67b8e713c2c4ac7e4bcc58be40e0416b3f00b4c",
+      "bytes": 6525
+    },
+    "colab_complete/existing_results/run_config.json": {
+      "sha256": "fbede55282b8749de016a6e2322bd06f376a13908399be4d7e156376cd7d7469",
+      "bytes": 637
+    },
+    "colab_complete/existing_results/splits_seed0.json": {
+      "sha256": "dadd6f701f8877f7310a3e575dcd5a994a01235582f8dc8dd436bf07aedf795f",
+      "bytes": 183392
+    },
+    "colab_complete/existing_results/temperatures_seed0.json": {
+      "sha256": "9216228a25808a74b7e00e22f99d6c867e5404b769ba3291f383d9097e823fdf",
+      "bytes": 5037
+    },
+    "colab_complete/extension_output/cases.jsonl": {
+      "sha256": "318f199b56cdc08d6db9865edbf73d8264017fe48dc909a550f7fde6aa54ee43",
+      "bytes": 3534409
+    },
+    "colab_complete/extension_output/cases_probe.jsonl": {
+      "sha256": "d30ea7f3161c4fa6fb273d12e90b86ccb40ed902d77871e5fc58e719293d1f8b",
+      "bytes": 14960
+    },
+    "colab_complete/extension_output/config_d1-3b.json": {
+      "sha256": "a3a0d21ae37490c8ffd370701476c8f6867412353f7f422a7ea7620bf826af83",
+      "bytes": 263
+    },
+    "colab_complete/extension_output/config_d1-omni.json": {
+      "sha256": "b064127cd700446fdbe208f081cedf93af1754a477d1c85105e2ea97927b6325",
+      "bytes": 265
+    },
+    "colab_complete/extension_output/manifest_d1-3b.json": {
+      "sha256": "478ef3b9f905eb3e439ea703dd1d6c8bf50325cc086c6399850f51832e3fe56f",
+      "bytes": 2206
+    },
+    "colab_complete/extension_output/manifest_d1-omni.json": {
+      "sha256": "42ff43cdcf5d65f44c12f1313a128a76c6e97ec46d7c5c7acba0a884004e0441",
+      "bytes": 2730
+    },
+    "colab_complete/extension_output/predictions_d1-3b.csv": {
+      "sha256": "6226b70899fe93025e6c442d0d79ed842b7b12014551882b3d77f04a0a4de389",
+      "bytes": 968882
+    },
+    "colab_complete/extension_output/predictions_d1-omni.csv": {
+      "sha256": "a71e4447ea680743896deaf644faa588335c44c55076ee996a8a9a0964d2960a",
+      "bytes": 981313
+    },
+    "colab_complete/extension_output/probe_/config_d1-3b.json": {
+      "sha256": "6569ef3fa2864cb61333ec0981ae193156e195917ebf570e845a1dbf16476f30",
+      "bytes": 262
+    },
+    "colab_complete/extension_output/probe_/config_d1-omni.json": {
+      "sha256": "196a718d66cc78c935313af8dc629351f334ae9468c130ae837fc8d69f66f36f",
+      "bytes": 264
+    },
+    "colab_complete/extension_output/probe_d1-3b.csv": {
+      "sha256": "21c6b68c994b95ccdb8a72564f2ebd1c7b615ac45a02923ebd94d20e55aef733",
+      "bytes": 5338
+    },
+    "colab_complete/extension_output/probe_d1-omni.csv": {
+      "sha256": "cd5297a49de95e7477595dbebfe0083efb70314f5b441fe8f4fbc5eeaffd5be6",
+      "bytes": 5394
+    },
+    "colab_complete/extension_output/probe_manifest_d1-3b.json": {
+      "sha256": "f303fb2aae2b3b64e4752e1783b34bbeef42ef07651c0c9537f364a506c81a29",
+      "bytes": 2201
+    },
+    "colab_complete/extension_output/probe_manifest_d1-omni.json": {
+      "sha256": "3ba006931ed99324c9480614f4f881d0ed883b6556004b27d8a3a935d59ff931",
+      "bytes": 2720
+    },
+    "colab_complete/extension_output/raw_predictions_d1-omni.csv": {
+      "sha256": "a1ae388ba084d60bc8d307f61c0f3459f12233193bc0d6a00e54b9ef8a98ce9c",
+      "bytes": 987107
+    },
+    "colab_complete/extension_output/raw_probe_d1-omni.csv": {
+      "sha256": "76835f0cc10d7e72f225ae373c5cfd6d9566c011b9d93fa5990b21219b4ef0b3",
+      "bytes": 5408
+    },
+    "colab_complete/extension_output/raw_vs_shipped_omni.csv": {
+      "sha256": "0c0c2a5c6a3c7d1009bd51d6e7e32d2be16de24d9aa674aae95b91cc1c003fa4",
+      "bytes": 9348
+    },
+    "colab_complete/extension_output/resolved_revisions.json": {
+      "sha256": "3adf768f10c5abf8652ab050026d05345ebecee15f87726f8d8ae06174e9619d",
+      "bytes": 1064
+    },
+    "colab_complete/extension_results/SUMMARY.md": {
+      "sha256": "8d45e5cd99697f09bc5decc9b9a687cb9957cceb1962e6eb99d25bfa95965de2",
+      "bytes": 3556
+    },
+    "colab_complete/extension_results/as_shipped_verified.csv": {
+      "sha256": "210b529c182b1afe4b0b54f3cb9e8bb4ded0a08e1d9f1645e0d57cd8029f601e",
+      "bytes": 5372
+    },
+    "colab_complete/extension_results/audit.json": {
+      "sha256": "bdba72a29d2c9116ce2015a35f9bf61db202334b090e19105b690e61f1eb0e63",
+      "bytes": 1419
+    },
+    "colab_complete/extension_results/figures/calibration_delta_ci.pdf": {
+      "sha256": "50dd7f97ec83025d9694f4e9b7e87c2c6b787342695b3138ef53994ae27fcf1c",
+      "bytes": 19649
+    },
+    "colab_complete/extension_results/figures/calibration_delta_ci.png": {
+      "sha256": "07856806d2ea9c674a3bf32bd46ca67baeae25abf638c22635419917d0c5647d",
+      "bytes": 101235
+    },
+    "colab_complete/extension_results/figures/reliability_case_disjoint.pdf": {
+      "sha256": "e9aafdda9dc63ea22c8b7ffdb0c08fd5f3dbe533ca72ebff9ed73d749868c8eb",
+      "bytes": 29751
+    },
+    "colab_complete/extension_results/figures/reliability_case_disjoint.png": {
+      "sha256": "69b0470d7ef64404f36f5df306ad5e8b449aa5cdb97e4c975251af677ea3cbe3",
+      "bytes": 230277
+    },
+    "colab_complete/extension_results/leave_one_workflow_out.csv": {
+      "sha256": "cfa43376a447a9fefc36b3ac56410c0ae42ec63b4f56f7a8ad47b69ad10e491b",
+      "bytes": 40827
+    },
+    "colab_complete/extension_results/paired_cluster_bootstrap.csv": {
+      "sha256": "40910312e7783213f7ed381e9aeb7e5f0517127828c61b3b3848be08c11f87c0",
+      "bytes": 16094
+    },
+    "colab_complete/extension_results/repeated_group_split.csv": {
+      "sha256": "fdbdbbca1b63234eeae145f65170a7bd81c26a0ac8f58c103f535b272ec33968",
+      "bytes": 670319
+    },
+    "colab_complete/extension_results/repeated_summary.json": {
+      "sha256": "c7e4da4c48bb6c8c4ec2ea09b6b16d514d77f9bd0d48ba779e41fc7bdd5da354",
+      "bytes": 2588
+    },
+    "colab_complete/extension_results/run_config.json": {
+      "sha256": "c1a7df766ae3bda6012631ad5b56ec0599293a325ce2f07042ee62453ed9287c",
+      "bytes": 598
+    },
+    "colab_complete/extension_results/splits_seed0.json": {
+      "sha256": "85a9449b38d399ef38536b4fe6af9617dbc99fd972ca8a4de8aa261988aba2f5",
+      "bytes": 73352
+    },
+    "colab_complete/extension_results/temperatures_seed0.json": {
+      "sha256": "461ebd93e44dccb6d3440c86e115425a653a2960fd9dae685fb8e5cfd5b22d3c",
+      "bytes": 2008
+    },
+    "colab_complete/logs/existing_analysis.log": {
+      "sha256": "780b2a06fa5d3f42e129b53782d854ec0d0edf15d419f25b478e3e6a47f6f02f",
+      "bytes": 3361
+    },
+    "colab_complete/logs/existing_figures.log": {
+      "sha256": "b2dfa6a8d4aa9ae2d25872448fe7fea4246059d92f5c83ee30e2d02f18e251b1",
+      "bytes": 269
+    },
+    "colab_complete/logs/existing_summary.log": {
+      "sha256": "b4af4509d5702e89be9adaba8e79f0345d96b776831dda5058c80d02b9e01fe9",
+      "bytes": 269
+    },
+    "colab_complete/logs/extension_analysis.log": {
+      "sha256": "73e09d13324391c1f011c502970d3000689ab3b48e4c82747b7fb642f58f485f",
+      "bytes": 1505
+    },
+    "colab_complete/logs/extension_figures.log": {
+      "sha256": "b6a01a2929ea29cee9446dbde762a7df6dba5608230efaa40dacb8588c3c43ea",
+      "bytes": 271
+    },
+    "colab_complete/logs/extension_summary.log": {
+      "sha256": "774b8d9d24c92ee7578e2086b6f0e6cd8787b9f19c7da3905dcafd064c8bb71d",
+      "bytes": 271
+    },
+    "colab_complete/logs/inference_d1-3b.log": {
+      "sha256": "3a70ad0c2004631febf899f7abba281905795993ef742e93fb35b347871a4d06",
+      "bytes": 11423
+    },
+    "colab_complete/logs/inference_d1-omni.log": {
+      "sha256": "9246c2acc22b5c9b915207291d54b67443091d4b4a4ce08c36defad0e388b5b5",
+      "bytes": 6759
+    },
+    "colab_complete/logs/probe_d1-3b.log": {
+      "sha256": "0d9a24b7b1b1b04153702c5cac1f5c198737be6426f4658252c197d928d4da0d",
+      "bytes": 7478
+    },
+    "colab_complete/logs/probe_d1-omni.log": {
+      "sha256": "ca3d695ba288d1f18ece2c652964ee62d658606a65ec55a6d5e79f4d212c5add",
+      "bytes": 6920
+    },
+    "colab_complete/logs/raw_shipped.log": {
+      "sha256": "fe5e18489f5bccf887e311f69e9d0bfc56abb56cae88613f4fda4790cb79e6f1",
+      "bytes": 279
+    },
+    "colab_complete/logs/regression.log": {
+      "sha256": "68c29a6f257a0660f1ca9ab8d06e7a37bb3aa828181f8c4b2cd343e27e2b1f0a",
+      "bytes": 262
+    },
+    "colab_complete/make_task_figures.py": {
+      "sha256": "e824a3b07acf7cd2558be52ec847aa142e67a9419a9791bcbf2f1bafadc7d29d",
+      "bytes": 1700
+    },
+    "colab_complete/notebook_config.json": {
+      "sha256": "af3147fadc78b882e4558f00897d960c68e4102ca48e024ed42509f8ff1e7d58",
+      "bytes": 291
+    },
+    "colab_complete/package_results.py": {
+      "sha256": "fe9bac1dde6327f6f81982e2a17803e271cc841e938f0fc82073286a033c059e",
+      "bytes": 5529
+    },
+    "colab_complete/paired_model_differences.csv": {
+      "sha256": "dde1b77c720e3ff3be852dd1b3b706be9c559ab305ca36b1661470de941fe476",
+      "bytes": 1926
+    },
+    "colab_complete/paired_models.py": {
+      "sha256": "aa4d209735f4a1ec56bd3a97e78c38682417535e9d3f134142f5218c366d925f",
+      "bytes": 1146
+    },
+    "colab_complete/pip_freeze.txt": {
+      "sha256": "9ff2a96c09a50805870d49086606e63d5d3f82ee5cb47fbf268e96641a420647",
+      "bytes": 14183
+    },
+    "colab_complete/run_status.json": {
+      "sha256": "f366891bd823e3083c2da07308666953389cbffed02c6cb60490ac89798d4271",
+      "bytes": 69
+    },
+    "colab_complete/taskwise_d1-3b/audit.json": {
+      "sha256": "5ecfacc69d03b69d55731062112a74dcda7ba6c19b7a8057d9aa23e7e862bd39",
+      "bytes": 532
+    },
+    "colab_complete/taskwise_d1-3b/fit_temperatures_seed0.json": {
+      "sha256": "3fb2fe0e12153e655a0124d7389b254618b6a80aba1944b71a3e4f9f591f2f76",
+      "bytes": 170
+    },
+    "colab_complete/taskwise_d1-3b/taskwise_bootstrap.csv": {
+      "sha256": "8df3007bab5c17fbaab364bf3ab8c7a851e74ac14ba474ec11776e1273e0291c",
+      "bytes": 3001
+    },
+    "colab_complete/taskwise_d1-3b/taskwise_metrics.csv": {
+      "sha256": "30828f9385c269b139754e033bdf08fbcc26c625481d6ce518a2bc0b6fcffac4",
+      "bytes": 11444
+    },
+    "colab_complete/taskwise_d1-3b/taskwise_repeated_splits.csv": {
+      "sha256": "cdb9867a07246817a857338785793bb4e09b1e09733ced8f06c7ae3d97284ba5",
+      "bytes": 104232
+    },
+    "colab_complete/taskwise_temperature_effects.pdf": {
+      "sha256": "7084ca06724c2d23d71fb1ec406e392b020649cdddc67dd045f070ce87b2fe29",
+      "bytes": 27278
+    },
+    "colab_complete/taskwise_temperature_effects.png": {
+      "sha256": "66573a711f32537614409dd9dacfa887a46f27e79d0d968775351e1a25c18520",
+      "bytes": 161972
+    },
+    "colab_complete/write_final_report.py": {
+      "sha256": "b16689c80f9a074b373a50130edbab1dbaa3b01893a86b3b22a54ede1accc2ec",
+      "bytes": 18108
+    },
+    "colab_complete/write_results_report.py": {
+      "sha256": "48abaaac25185423ef9a7f428fc4e513e2a921500a6be793fbef619353888f16",
+      "bytes": 8444
+    },
+    "results_corrected/SUMMARY.md": {
+      "sha256": "30656a8cfc006bfe1efd40f0c6b905b17b440301ea7184d9f5574a80fb76cd1c",
+      "bytes": 7881
+    },
+    "results_corrected/as_shipped_verified.csv": {
+      "sha256": "bf4cfb8eb6ffdd8b11d5a37edce3955612616ce216adb8a21d763ddbb3e5bda1",
+      "bytes": 11772
+    },
+    "results_corrected/audit.json": {
+      "sha256": "f584cc7f081fc959a94c1a7fea3717c4cb2ed31af6ac55567b81bd74ce13f96d",
+      "bytes": 2747
+    },
+    "results_corrected/figures/calibration_delta_ci.pdf": {
+      "sha256": "f3f35b41f13336e525e803fc254eb3e885d5d0635be4eb895c47b4ee4b31e250",
+      "bytes": 20803
+    },
+    "results_corrected/figures/calibration_delta_ci.png": {
+      "sha256": "650e5d9d845692e70caf54092c9cb4bbf80a5c7faa1c29e031faa5361d254cd8",
+      "bytes": 99432
+    },
+    "results_corrected/figures/reliability_case_disjoint.pdf": {
+      "sha256": "323a808c35b2c909414bea58a3c0c8a2c6264b6ba0dacaeed1e1ae04caf59ed3",
+      "bytes": 46216
+    },
+    "results_corrected/figures/reliability_case_disjoint.png": {
+      "sha256": "a8ca03e2edc663956a5dd23613520c20684265eb98dd08889ae77c4b91656716",
+      "bytes": 196764
+    },
+    "results_corrected/leave_one_workflow_out.csv": {
+      "sha256": "bcb612687a6a97db50fd2aa48416bb4e817736721f83b868c42ee32447ba0d55",
+      "bytes": 100327
+    },
+    "results_corrected/paired_cluster_bootstrap.csv": {
+      "sha256": "f9baa1e8fffe1710e67cc911f381e7282273705f766645be88bd6f84d7a44fa7",
+      "bytes": 40495
+    },
+    "results_corrected/repeated_group_split.csv": {
+      "sha256": "56f32dfb296ca4e201deb22ea53667a0269da634019966db246dd6bcb9680412",
+      "bytes": 1501223
+    },
+    "results_corrected/repeated_summary.json": {
+      "sha256": "066357649a012dfa8f82fe55c67b8e713c2c4ac7e4bcc58be40e0416b3f00b4c",
+      "bytes": 6525
+    },
+    "results_corrected/run_config.json": {
+      "sha256": "a82a8db880b791528d048d7ef111404551625578b6c5e9ebf3bca4e059541471",
+      "bytes": 611
+    },
+    "results_corrected/splits_seed0.json": {
+      "sha256": "dadd6f701f8877f7310a3e575dcd5a994a01235582f8dc8dd436bf07aedf795f",
+      "bytes": 183392
+    },
+    "results_corrected/temperatures_seed0.json": {
+      "sha256": "9216228a25808a74b7e00e22f99d6c867e5404b769ba3291f383d9097e823fdf",
+      "bytes": 5037
+    },
+    "verified/CHANGELOG.md": {
+      "sha256": "77176cc5f56a8cf471b6c7d8738786f94e3398cb45c79512aefe753a34cf1862",
+      "bytes": 3094
+    },
+    "verified/LEGACY_PAPER_OUTLINE.md": {
+      "sha256": "8269fb8fa4abf11b5578921d69b3fe1c8bb5ad9cb50ab7b4bf7e9d5cc3d0be4b",
+      "bytes": 6351
+    },
+    "verified/LEGACY_README.md": {
+      "sha256": "4441fc56efc91db7303add032bf3f6eed946fcedb8869db293615d7aacedf89f",
+      "bytes": 4871
+    },
+    "verified/LEGACY_REPORT.md": {
+      "sha256": "79e93c7bdcb0a659e1d282ec5fd6ab4709b2ab06560d5529e8c9b9d35b53e451",
+      "bytes": 17021
+    },
+    "verified/PAPER_DRAFT.md": {
+      "sha256": "03fab1ef3e40a52d7c2c1ec44d17e57141a44e142792816cbef727773d43adf5",
+      "bytes": 25095
+    },
+    "verified/README.md": {
+      "sha256": "d6f21a87c6fe4916b30c186beffd857f03df8fa94f4ce0c15ad4d698c4d5189d",
+      "bytes": 4983
+    },
+    "verified/VERIFY_REPORT.md": {
+      "sha256": "b9c9795ff471d8ed7cbbcf87b5510cf4c983b27e29e460669479f2ac83ba9da5",
+      "bytes": 11796
+    },
+    "verified/data/metrics_asshipped.csv": {
+      "sha256": "a9b606e0f890cd17509e64516263fb706ff1bea50c798f60ff7a346583c95487",
+      "bytes": 1861
+    },
+    "verified/data/metrics_byworkflow.csv": {
+      "sha256": "1cff0e46f388dc44d1860624108fa9bb3123f304b91a5a45c9b409e03e2137ea",
+      "bytes": 1162
+    },
+    "verified/data/metrics_rq2.csv": {
+      "sha256": "e246099844bcf079ab07bd78bb85e32e55db099d082be00d7f479607f71575d9",
+      "bytes": 5243
+    },
+    "verified/data/predictions_d1-3b.csv": {
+      "sha256": "0b2dbb87bad0271973980ed76df630bc0c69a17b09a3e40a4c8bdf9873b24733",
+      "bytes": 342257
+    },
+    "verified/data/predictions_d1-omni.csv": {
+      "sha256": "77d0bf5f860627301ed0ee42c31863e76c1e5198920d3becc9be9723f66f2ba1",
+      "bytes": 346578
+    },
+    "verified/data/predictions_jeff-0.8b.csv": {
+      "sha256": "751b5f817dc442462aded7578e61bd8b48acb931c50f540f9b03a86c2ae8cde4",
+      "bytes": 351007
+    },
+    "verified/data/predictions_jeff-2b.csv": {
+      "sha256": "9870894124ff9dda0701ebab897fa2eb0488f001b30407e739ef95e47b629dfb",
+      "bytes": 346558
+    },
+    "verified/data/predictions_opendecider-small.csv": {
+      "sha256": "b87619dbc1b08f0b09d8eb03a4b7710673933d673491fb32c273fe59ef0afe13",
+      "bytes": 368643
+    },
+    "verified/data/temperatures.json": {
+      "sha256": "aca95b6e355633b97b93d3d1c2d2ddedb56329abf91b3944b45136a793b59ce5",
+      "bytes": 5732
+    },
+    "verified/decision_calib/__init__.py": {
+      "sha256": "47460cc007c9621b41ee9c0624f516ea7eb7a2d7726463efd2312acfea070028",
+      "bytes": 392
+    },
+    "verified/decision_calib/calibrate.py": {
+      "sha256": "6ff3371073a86d30045f67f2409dc2817029a4dbc1eda168311077dc7a3a17eb",
+      "bytes": 2584
+    },
+    "verified/decision_calib/datasets.py": {
+      "sha256": "80bd3a82232c652445d802761a23bce15c7615c0f2aa1b95f0bdd4e9ea68ebce",
+      "bytes": 5037
+    },
+    "verified/decision_calib/metrics.py": {
+      "sha256": "d703153ec42ecbd023751ab7df28786bc5bac10975c8c3358751297d94f654ee",
+      "bytes": 3690
+    },
+    "verified/decision_calib/models.py": {
+      "sha256": "97be5149e371101150c4f1d6d670c52d69d2ba1754c119c90dbfead0431274c1",
+      "bytes": 11591
+    },
+    "verified/figures/rel_d1-3b_indomain.png": {
+      "sha256": "b43d23ea963f128b092b901d06d26993378b48592d477a72f587bf5aef7d390d",
+      "bytes": 130676
+    },
+    "verified/figures/rel_d1-3b_ood.png": {
+      "sha256": "8173858f653acb54c9515a96865f8105e51371b01a55020f199d8ea9a707a1a2",
+      "bytes": 91401
+    },
+    "verified/figures/rel_d1-omni_indomain.png": {
+      "sha256": "cc927b67016c3f8aec5ce743d73e2804ca426bf3e80b862615cd345ed7b5ffe9",
+      "bytes": 133162
+    },
+    "verified/figures/rel_d1-omni_ood.png": {
+      "sha256": "5b56d70b9e971c4be04f9fb69ac857e2ead942b5be68d317701795cb59e3e2a8",
+      "bytes": 91294
+    },
+    "verified/figures/rel_jeff-0.8b_indomain.png": {
+      "sha256": "7528dbddb23d217a8b5248eacca29c8d89ddcca1f59fbd9dde081d7cc06edcef",
+      "bytes": 140656
+    },
+    "verified/figures/rel_jeff-0.8b_ood.png": {
+      "sha256": "5b84703ddc000c62c5f80ae6a522fda5b12c5de7290129add3e0a5b3e4fe6c02",
+      "bytes": 99933
+    },
+    "verified/figures/rel_jeff-2b_indomain.png": {
+      "sha256": "941f5f4e1a9e9ddd929de2e696293459ded126b21299c9b5a9ac2c6971551506",
+      "bytes": 140620
+    },
+    "verified/figures/rel_jeff-2b_ood.png": {
+      "sha256": "d72ba7ba9c6ef2d8977c1e0116683adef209e3bdf04a5e55593e98f6d0895c71",
+      "bytes": 96879
+    },
+    "verified/figures/rel_opendecider-small_indomain.png": {
+      "sha256": "31c5a2ddd153e5428623b5d8cb602677e0e79e7194f21b774e217cae61ad9329",
+      "bytes": 133978
+    },
+    "verified/figures/rel_opendecider-small_ood.png": {
+      "sha256": "d585a8c345d4c796552a4f727c948edd93d098f5972fab10b8ef8726829a1b64",
+      "bytes": 95469
+    },
+    "verified/provenance/Jeff-Qwen3.5-2B_config.json": {
+      "sha256": "202832afd966c7e24297e5d0ea041d713185c69ecdc3451328aa0f5bac6a63f6",
+      "bytes": 2692
+    },
+    "verified/provenance/Jeff-Qwen3.5-2B_metadata.json": {
+      "sha256": "ee83f94f8fe8920b67569fd3d9cb1facd5dc7aa9eeecfa41bbf5b81293fb3a60",
+      "bytes": 12306
+    },
+    "verified/provenance/agent_trace_observability_test.json": {
+      "sha256": "d8a1211410f8db0d4c3fc847e00ba7d2c42c226e8caa1dd3a92c4310c7e3ad9b",
+      "bytes": 495071
+    },
+    "verified/provenance/customer_service_test.json": {
+      "sha256": "99971dc4b8c772f83185e177b730c2c11ef1e16a29a32aca2b7d430d0dda29cf",
+      "bytes": 614777
+    },
+    "verified/provenance/d1-3B_config.json": {
+      "sha256": "c7f969e226c926cd0b3319791eef3b6cefd81e68a3624301b762c27992e128ae",
+      "bytes": 2772
+    },
+    "verified/provenance/d1-3B_metadata.json": {
+      "sha256": "55fda215a0e153b146500bab12db06701bb65a3b1722faf7a95d697b40a565b3",
+      "bytes": 9011
+    },
+    "verified/provenance/d1-omni-600M_config.json": {
+      "sha256": "42fa0bab32362e1e9274410eb7524c6dd9764d3f925acafa0b80923b61d23381",
+      "bytes": 1992
+    },
+    "verified/provenance/d1-omni-600M_metadata.json": {
+      "sha256": "e6ce83a24920d11344309dfaab2fb38f52667843e5bd8a2be0057340b624ba30",
+      "bytes": 3510
+    },
+    "verified/provenance/invoice_processing_test.json": {
+      "sha256": "d0c6d2946c309a2b721d740552dc0267651c26e34487dc72e85fe179f5446f4d",
+      "bytes": 533722
+    },
+    "verified/provenance/security_incidents_test.json": {
+      "sha256": "f87bf67eac6d348abd4947e55fe3eeeeb546e4564cbd60386a3041d137961c2a",
+      "bytes": 539649
+    },
+    "verified/provenance/source_inspection_hashes.json": {
+      "sha256": "316ddb92e6717f981605987ded1dc6f13b4fac28326da54cbc2fb13f94cb0f04",
+      "bytes": 1625
+    },
+    "verified/provenance/typed_decisions_metadata.json": {
+      "sha256": "bb22f7ea14dd6869c049e8650c218b361620f7cea1b6d2007de44c708b439f64",
+      "bytes": 4512
+    },
+    "verified/requirements.txt": {
+      "sha256": "dab707e3ccdd05b74fbcdbb8036840c858ac7cacf9376022ae241d9eae59b518",
+      "bytes": 1228
+    },
+    "verified/results_corrected/SUMMARY.md": {
+      "sha256": "30656a8cfc006bfe1efd40f0c6b905b17b440301ea7184d9f5574a80fb76cd1c",
+      "bytes": 7881
+    },
+    "verified/results_corrected/as_shipped_verified.csv": {
+      "sha256": "bf4cfb8eb6ffdd8b11d5a37edce3955612616ce216adb8a21d763ddbb3e5bda1",
+      "bytes": 11772
+    },
+    "verified/results_corrected/audit.json": {
+      "sha256": "f584cc7f081fc959a94c1a7fea3717c4cb2ed31af6ac55567b81bd74ce13f96d",
+      "bytes": 2747
+    },
+    "verified/results_corrected/figures/calibration_delta_ci.pdf": {
+      "sha256": "f3f35b41f13336e525e803fc254eb3e885d5d0635be4eb895c47b4ee4b31e250",
+      "bytes": 20803
+    },
+    "verified/results_corrected/figures/calibration_delta_ci.png": {
+      "sha256": "650e5d9d845692e70caf54092c9cb4bbf80a5c7faa1c29e031faa5361d254cd8",
+      "bytes": 99432
+    },
+    "verified/results_corrected/figures/reliability_case_disjoint.pdf": {
+      "sha256": "323a808c35b2c909414bea58a3c0c8a2c6264b6ba0dacaeed1e1ae04caf59ed3",
+      "bytes": 46216
+    },
+    "verified/results_corrected/figures/reliability_case_disjoint.png": {
+      "sha256": "a8ca03e2edc663956a5dd23613520c20684265eb98dd08889ae77c4b91656716",
+      "bytes": 196764
+    },
+    "verified/results_corrected/leave_one_workflow_out.csv": {
+      "sha256": "bcb612687a6a97db50fd2aa48416bb4e817736721f83b868c42ee32447ba0d55",
+      "bytes": 100327
+    },
+    "verified/results_corrected/paired_cluster_bootstrap.csv": {
+      "sha256": "f9baa1e8fffe1710e67cc911f381e7282273705f766645be88bd6f84d7a44fa7",
+      "bytes": 40495
+    },
+    "verified/results_corrected/repeated_group_split.csv": {
+      "sha256": "56f32dfb296ca4e201deb22ea53667a0269da634019966db246dd6bcb9680412",
+      "bytes": 1501223
+    },
+    "verified/results_corrected/repeated_summary.json": {
+      "sha256": "066357649a012dfa8f82fe55c67b8e713c2c4ac7e4bcc58be40e0416b3f00b4c",
+      "bytes": 6525
+    },
+    "verified/results_corrected/run_config.json": {
+      "sha256": "a82a8db880b791528d048d7ef111404551625578b6c5e9ebf3bca4e059541471",
+      "bytes": 611
+    },
+    "verified/results_corrected/splits_seed0.json": {
+      "sha256": "dadd6f701f8877f7310a3e575dcd5a994a01235582f8dc8dd436bf07aedf795f",
+      "bytes": 183392
+    },
+    "verified/results_corrected/temperatures_seed0.json": {
+      "sha256": "9216228a25808a74b7e00e22f99d6c867e5404b769ba3291f383d9097e823fdf",
+      "bytes": 5037
+    },
+    "verified/scripts/analyze_raw_arm.py": {
+      "sha256": "d2ee4f6836db3e9e0f6e4975be9a4c9f62a46448fa92d7a5dacfb4c2a1ed6061",
+      "bytes": 811
+    },
+    "verified/scripts/build_bundle.py": {
+      "sha256": "8e1112a4e927df8186734e4a069637b91a98828b4620bffac58f45e86d4314a4",
+      "bytes": 2421
+    },
+    "verified/scripts/make_figures.py": {
+      "sha256": "b53e24e08fdc3368aa30306b4f8bdcd3fc5f9492b34cf48f1dda8a4ebb5e93b0",
+      "bytes": 3599
+    },
+    "verified/scripts/make_verified_figures.py": {
+      "sha256": "012e09c85fd223950eb15b5f0f81cd4b1615515910b3a331f816f9773e30fe9c",
+      "bytes": 2815
+    },
+    "verified/scripts/run_extension.py": {
+      "sha256": "d515b1498b9ef5ab4e216e0d74048beff09c0cfc0bbbd2d2d134587c3d9f015d",
+      "bytes": 12296
+    },
+    "verified/scripts/run_measure.py": {
+      "sha256": "cb0467a50e44d49c3e1af98c589c568d80d5fb0e41c2051b46a6323b3864eb87",
+      "bytes": 4785
+    },
+    "verified/scripts/run_rq2.py": {
+      "sha256": "fcc40c1677a8b9d9b9463a373a8c8e163746e1e22187a24f33b093c86a5fd406",
+      "bytes": 8044
+    },
+    "verified/scripts/smoke_test.py": {
+      "sha256": "fba19f969059558592f1c329b57b9cd47319139cec75a8d18baa9902bc79ae4b",
+      "bytes": 7178
+    },
+    "verified/scripts/summarize_verified.py": {
+      "sha256": "78e03f5349bdf2aa30f59a20f593916989e68f28dfc83cd6941b45082fa22fc4",
+      "bytes": 2965
+    },
+    "verified/scripts/test_extension_io.py": {
+      "sha256": "b5e4e9f4cf13b65e83b1ec614e955dfb2115e37fcec1bb3ab6cb8a190047283c",
+      "bytes": 2575
+    },
+    "verified/scripts/test_verified.py": {
+      "sha256": "78ae99ed47d806a43d574b48c54dc62c058c4f0dd03038b56da2606139422d85",
+      "bytes": 1684
+    },
+    "verified/scripts/verify_analysis.py": {
+      "sha256": "2fd146f4a8045d040a713d2648171f684ce1c7801304221e0b3a155bb0a090db",
+      "bytes": 13123
+    }
+  }
+}

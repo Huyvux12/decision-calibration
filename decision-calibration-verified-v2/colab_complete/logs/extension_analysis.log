@@ -1,0 +1,53 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/verify_analysis.py'), '--data-dir', PosixPath('/content/decision_calibration_verified_v2/extension_output'), '--models', 'd1-omni', 'd1-3b', '--out', PosixPath('/content/decision_calibration_verified_v2/extension_results'), '--seeds', 20, '--bootstrap', 1000]
+d1-omni seed 1 / 20
+d1-omni seed 2 / 20
+d1-omni seed 3 / 20
+d1-omni seed 4 / 20
+d1-omni seed 5 / 20
+d1-omni seed 6 / 20
+d1-omni seed 7 / 20
+d1-omni seed 8 / 20
+d1-omni seed 9 / 20
+d1-omni seed 10 / 20
+d1-omni seed 11 / 20
+d1-omni seed 12 / 20
+d1-omni seed 13 / 20
+d1-omni seed 14 / 20
+d1-omni seed 15 / 20
+d1-omni seed 16 / 20
+d1-omni seed 17 / 20
+d1-omni seed 18 / 20
+d1-omni seed 19 / 20
+d1-omni seed 20 / 20
+d1-omni global in-domain bootstrap done
+d1-omni global ood bootstrap done
+d1-omni per_type in-domain bootstrap done
+d1-omni per_type ood bootstrap done
+d1-3b seed 1 / 20
+d1-3b seed 2 / 20
+d1-3b seed 3 / 20
+d1-3b seed 4 / 20
+d1-3b seed 5 / 20
+d1-3b seed 6 / 20
+d1-3b seed 7 / 20
+d1-3b seed 8 / 20
+d1-3b seed 9 / 20
+d1-3b seed 10 / 20
+d1-3b seed 11 / 20
+d1-3b seed 12 / 20
+d1-3b seed 13 / 20
+d1-3b seed 14 / 20
+d1-3b seed 15 / 20
+d1-3b seed 16 / 20
+d1-3b seed 17 / 20
+d1-3b seed 18 / 20
+d1-3b seed 19 / 20
+d1-3b seed 20 / 20
+d1-3b global in-domain bootstrap done
+d1-3b global ood bootstrap done
+d1-3b per_type in-domain bootstrap done
+d1-3b per_type ood bootstrap done
+Saved /content/decision_calibration_verified_v2/extension_results
+
+EXIT CODE: 0

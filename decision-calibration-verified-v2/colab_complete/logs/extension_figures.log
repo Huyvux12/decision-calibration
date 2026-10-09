@@ -1,0 +1,5 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/make_verified_figures.py'), PosixPath('/content/decision_calibration_verified_v2/extension_results')]
+/content/decision_calibration_verified_v2/extension_results/figures
+
+EXIT CODE: 0

@@ -1,0 +1,182 @@
+{
+  "_id": "6ac3dbf8e031eeac00cbb0aa",
+  "id": "LiquidAI/d1-omni-600M",
+  "private": false,
+  "pipeline_tag": "image-text-to-text",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "d1_omni",
+    "feature-extraction",
+    "liquid",
+    "lfm2.5",
+    "edge",
+    "decision",
+    "classification",
+    "calibration",
+    "system-one",
+    "multimodal",
+    "vision",
+    "audio",
+    "decision-model",
+    "image-text-to-text",
+    "custom_code",
+    "en",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt",
+    "ar",
+    "hi",
+    "ja",
+    "ru",
+    "tr",
+    "vi",
+    "zh",
+    "arxiv:2511.23404",
+    "base_model:LiquidAI/LFM2.5-Encoder-350M",
+    "base_model:finetune:LiquidAI/LFM2.5-Encoder-350M",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 8487,
+  "likes": 80,
+  "modelId": "LiquidAI/d1-omni-600M",
+  "author": "LiquidAI",
+  "sha": "02b55d7076f15129e59ab3f94783f32c4b088674",
+  "lastModified": "2026-10-07T20:22:38.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "<|mask|>",
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "D1OmniModel"
+    ],
+    "auto_map": {
+      "AutoConfig": "modeling_d1.D1OmniConfig",
+      "AutoModel": "modeling_d1.D1OmniModel"
+    },
+    "model_type": "d1_omni",
+    "tokenizer_config": {
+      "bos_token": "<|startoftext|>",
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|pad|>",
+      "mask_token": "<|mask|>"
+    }
+  },
+  "cardData": {
+    "library_name": "transformers",
+    "license": "other",
+    "license_name": "lfm1.0",
+    "license_link": "LICENSE",
+    "language": [
+      "en",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "ar",
+      "hi",
+      "ja",
+      "ru",
+      "tr",
+      "vi",
+      "zh"
+    ],
+    "pipeline_tag": "image-text-to-text",
+    "base_model": "LiquidAI/LFM2.5-Encoder-350M",
+    "tags": [
+      "liquid",
+      "lfm2.5",
+      "edge",
+      "decision",
+      "classification",
+      "calibration",
+      "system-one",
+      "multimodal",
+      "vision",
+      "audio",
+      "decision-model"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "custom_class": "modeling_d1.D1OmniModel",
+    "pipeline_tag": "feature-extraction"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "audio.py"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "encoder.py"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "modeling_d1.py"
+    },
+    {
+      "rfilename": "prompt.py"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vision.py"
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "muratcanlaloglu/TurkishDecisionBenchmark",
+    "shreyask/voice-inbox",
+    "shreyask/d1-omni-voice",
+    "fastgpu/vram-and-gpu-cost-calculator"
+  ],
+  "createdAt": "2026-10-05T17:18:48.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 587161089
+    },
+    "total": 587161089
+  },
+  "usedStorage": 4718932608
+}

@@ -1,0 +1,112 @@
+{
+  "d1-omni/global": {
+    "all": 1.4346832802932394
+  },
+  "d1-omni/per_type": {
+    "choice": 1.2493902595860658,
+    "noul": 1.1171728251017337,
+    "score": 1.6818475286877035
+  },
+  "d1-omni/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 0.7810902063861457,
+    "('typed_agent_trace_observability', 'noul')": 1.248603924066872,
+    "('typed_agent_trace_observability', 'score')": 1.9576614429592971,
+    "('typed_customer_service', 'choice')": 1.751693914289785,
+    "('typed_customer_service', 'score')": 2.023338495552651,
+    "('typed_customer_service', 'noul')": 0.3169766246294798,
+    "('typed_invoice_processing', 'score')": 1.8349112839234316,
+    "('typed_invoice_processing', 'choice')": 1.2417316183315519,
+    "('typed_invoice_processing', 'noul')": 1.074646949892418,
+    "('typed_security_incidents', 'noul')": 1.991413599103907,
+    "('typed_security_incidents', 'choice')": 0.6300474108162881,
+    "('typed_security_incidents', 'score')": 0.8626282622969998
+  },
+  "d1-3b/global": {
+    "all": 1.1658405544177857
+  },
+  "d1-3b/per_type": {
+    "choice": 1.1342589617447596,
+    "noul": 0.9658761002768537,
+    "score": 1.289204120767185
+  },
+  "d1-3b/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 2.0260509645710147,
+    "('typed_agent_trace_observability', 'noul')": 0.8964638546687203,
+    "('typed_agent_trace_observability', 'score')": 1.1832389155163179,
+    "('typed_customer_service', 'choice')": 0.9760332916188683,
+    "('typed_customer_service', 'score')": 0.9764133186545154,
+    "('typed_customer_service', 'noul')": 0.8006847427012886,
+    "('typed_invoice_processing', 'score')": 2.0603419870533908,
+    "('typed_invoice_processing', 'choice')": 1.0877185594135712,
+    "('typed_invoice_processing', 'noul')": 0.5232628749092356,
+    "('typed_security_incidents', 'noul')": 1.644558940368416,
+    "('typed_security_incidents', 'choice')": 0.663758140065496,
+    "('typed_security_incidents', 'score')": 0.7455177283847463
+  },
+  "opendecider-small/global": {
+    "all": 0.6851173115907198
+  },
+  "opendecider-small/per_type": {
+    "choice": 0.6649697934835117,
+    "noul": 1.0583457558242555,
+    "score": 0.5793758882189329
+  },
+  "opendecider-small/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 0.42639374976935074,
+    "('typed_agent_trace_observability', 'noul')": 0.8517157302672298,
+    "('typed_agent_trace_observability', 'score')": 0.6760769018475095,
+    "('typed_customer_service', 'choice')": 0.8844096504358606,
+    "('typed_customer_service', 'score')": 0.5827823945986726,
+    "('typed_customer_service', 'noul')": 0.8855899199749977,
+    "('typed_invoice_processing', 'score')": 0.638853203937958,
+    "('typed_invoice_processing', 'choice')": 0.8188176261201496,
+    "('typed_invoice_processing', 'noul')": 0.5182937036052999,
+    "('typed_security_incidents', 'noul')": 2.7809721811062795,
+    "('typed_security_incidents', 'choice')": 0.44504131793323,
+    "('typed_security_incidents', 'score')": 0.4405336290510826
+  },
+  "jeff-2b/global": {
+    "all": 1.4061797753117824
+  },
+  "jeff-2b/per_type": {
+    "choice": 1.3543884273174402,
+    "noul": 2.135919547529956,
+    "score": 1.218254433576267
+  },
+  "jeff-2b/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 0.7334757820803794,
+    "('typed_agent_trace_observability', 'noul')": 2.927430601023015,
+    "('typed_agent_trace_observability', 'score')": 1.056119821637534,
+    "('typed_customer_service', 'choice')": 1.465765708375743,
+    "('typed_customer_service', 'score')": 0.7935810374326174,
+    "('typed_customer_service', 'noul')": 0.8963570111763194,
+    "('typed_invoice_processing', 'score')": 2.0662759901830814,
+    "('typed_invoice_processing', 'choice')": 2.5723908704987166,
+    "('typed_invoice_processing', 'noul')": 3.324791963270253,
+    "('typed_security_incidents', 'noul')": 1.20602353780311,
+    "('typed_security_incidents', 'choice')": 0.6361082587309188,
+    "('typed_security_incidents', 'score')": 0.5209218379014515
+  },
+  "jeff-0.8b/global": {
+    "all": 2.537721504708638
+  },
+  "jeff-0.8b/per_type": {
+    "choice": 1.9543096102765678,
+    "noul": 6.297593160960067,
+    "score": 2.750139570240715
+  },
+  "jeff-0.8b/per_task": {
+    "('typed_agent_trace_observability', 'choice')": 2.113088268751938,
+    "('typed_agent_trace_observability', 'noul')": 9.999999146908246,
+    "('typed_agent_trace_observability', 'score')": 1.5807175771780928,
+    "('typed_customer_service', 'choice')": 1.6735623102519948,
+    "('typed_customer_service', 'score')": 1.1623227529283386,
+    "('typed_customer_service', 'noul')": 9.999998874608023,
+    "('typed_invoice_processing', 'score')": 4.191210105942362,
+    "('typed_invoice_processing', 'choice')": 4.471052808589156,
+    "('typed_invoice_processing', 'noul')": 6.416038003483149,
+    "('typed_security_incidents', 'noul')": 3.461744599852112,
+    "('typed_security_incidents', 'choice')": 0.538746985982759,
+    "('typed_security_incidents', 'score')": 9.999998802540254
+  }
+}

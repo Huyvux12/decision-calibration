@@ -1,0 +1,20 @@
+{
+  "models": {
+    "LiquidAI/d1-omni-600M": "02b55d7076f15129e59ab3f94783f32c4b088674",
+    "LiquidAI/d1-3B": "051bcc464b01b9f92942b364d9586b0ef5912432",
+    "manjunathshiva/opendecider-small": "15ecdbe7b2ecf8bd2ed897e4968f816836ac8ad7",
+    "mstrasser/Jeff-Qwen3.5-2B": "568a137a3e912016db67b13d80dcddb43c491932",
+    "mstrasser/Jeff-Qwen3.5-0.8B": "d86f657f503245be5291e3c69e573bf48033aa50",
+    "Qwen/Qwen3-4B-Instruct-2507": "cdbee75f17c01a7cc42f958dc650907174af0554"
+  },
+  "datasets": {
+    "LocalLLaMA/typed-decisions": "e039ebffcc280174dd354227424fb2b249f191de",
+    "fancyzhx/ag_news": "eb185aade064a813bc0b7f42de02595523103ca4",
+    "cornell-movie-review-data/rotten_tomatoes": "aa13bc287fa6fcab6daf52f0dfb9994269ffea28",
+    "nyu-mll/glue": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "Yelp/yelp_review_full": "c1f9ee939b7d05667af864ee1cb066393154bf85"
+  },
+  "created_utc": "2026-10-09T04:21:55Z",
+  "jeff_commit": "3720e7c66d73b79a6e90189f3d5b0d6ecf03ddc0",
+  "jeff_source": "/content/decision_calibration_verified_v2/extension_output/jeff_src"
+}

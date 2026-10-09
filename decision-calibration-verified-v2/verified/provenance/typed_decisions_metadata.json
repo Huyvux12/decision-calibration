@@ -1,0 +1,169 @@
+{
+  "_id": "6aaa4864f37373a4ce11d91a",
+  "id": "LocalLLaMA/typed-decisions",
+  "author": "LocalLLaMA",
+  "sha": "e039ebffcc280174dd354227424fb2b249f191de",
+  "lastModified": "2026-10-08T03:24:02.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "benchmark:official",
+    "benchmark:eval-yaml",
+    "task_categories:text-classification",
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us",
+    "structured-decisions",
+    "calibration",
+    "probabilistic-classification",
+    "system-one",
+    "workflow-evaluation",
+    "synthetic"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tTyped Decisions\n\t\n\nA benchmark for typed probabilistic decisions. A model gets one piece of\nunstructured state and answers five typed questions about it at once, and every\nanswer is a probability distribution, not a single label.\nThe schema follows the System One primitives (noul, choice, score) used by\nTypeSafe AI, so a row replays against any API with that\nshape. The benchmark is independent: it is not affiliated with TypeSafe and does\nnot reproduce their Jev model.\u2026 See the full description on the dataset page: https://huggingface.co/datasets/LocalLLaMA/typed-decisions.",
+  "downloads": 32973,
+  "likes": 152,
+  "cardData": {
+    "license": "apache-2.0",
+    "language": [
+      "en"
+    ],
+    "pretty_name": "Typed Decisions",
+    "size_categories": [
+      "n<1K"
+    ],
+    "task_categories": [
+      "text-classification"
+    ],
+    "tags": [
+      "structured-decisions",
+      "calibration",
+      "probabilistic-classification",
+      "system-one",
+      "workflow-evaluation",
+      "synthetic"
+    ],
+    "configs": [
+      {
+        "config_name": "agent_trace_observability",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "agent_trace_observability/train-*.parquet"
+          },
+          {
+            "split": "test",
+            "path": "agent_trace_observability/test-*.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "customer_service",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "customer_service/train-*.parquet"
+          },
+          {
+            "split": "test",
+            "path": "customer_service/test-*.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "invoice_processing",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "invoice_processing/train-*.parquet"
+          },
+          {
+            "split": "test",
+            "path": "invoice_processing/test-*.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "security_incidents",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "security_incidents/train-*.parquet"
+          },
+          {
+            "split": "test",
+            "path": "security_incidents/test-*.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "all",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "all/train-*.parquet"
+          },
+          {
+            "split": "test",
+            "path": "all/test-*.parquet"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "agent_trace_observability/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "agent_trace_observability/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "all/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "all/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "assets/leaderboard.png"
+    },
+    {
+      "rfilename": "customer_service/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "customer_service/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "eval.yaml"
+    },
+    {
+      "rfilename": "invoice_processing/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "invoice_processing/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "security_incidents/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "security_incidents/train-00000-of-00001.parquet"
+    }
+  ],
+  "createdAt": "2026-09-16T07:42:28.000Z",
+  "usedStorage": 3670221
+}

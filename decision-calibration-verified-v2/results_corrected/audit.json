@@ -1,0 +1,128 @@
+{
+  "d1-omni": {
+    "rows": 2200,
+    "cases": 600,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {},
+    "soft_gold_attached": 2000,
+    "sha256": "77d0bf5f860627301ed0ee42c31863e76c1e5198920d3becc9be9723f66f2ba1",
+    "ood_labels": {
+      "ood_agnews": {
+        "business": 5,
+        "scitech": 29,
+        "sports": 11,
+        "world": 15
+      },
+      "ood_rotten": {
+        "true": 20,
+        "false": 20
+      },
+      "ood_sst2": {
+        "true": 50,
+        "false": 50
+      }
+    }
+  },
+  "d1-3b": {
+    "rows": 2200,
+    "cases": 600,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {},
+    "soft_gold_attached": 2000,
+    "sha256": "0b2dbb87bad0271973980ed76df630bc0c69a17b09a3e40a4c8bdf9873b24733",
+    "ood_labels": {
+      "ood_agnews": {
+        "business": 5,
+        "scitech": 29,
+        "sports": 11,
+        "world": 15
+      },
+      "ood_rotten": {
+        "true": 20,
+        "false": 20
+      },
+      "ood_sst2": {
+        "true": 50,
+        "false": 50
+      }
+    }
+  },
+  "opendecider-small": {
+    "rows": 2200,
+    "cases": 600,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {
+      "stored_prediction_tie_other_than_first": 3
+    },
+    "soft_gold_attached": 2000,
+    "sha256": "b87619dbc1b08f0b09d8eb03a4b7710673933d673491fb32c273fe59ef0afe13",
+    "ood_labels": {
+      "ood_agnews": {
+        "business": 5,
+        "scitech": 29,
+        "sports": 11,
+        "world": 15
+      },
+      "ood_rotten": {
+        "true": 20,
+        "false": 20
+      },
+      "ood_sst2": {
+        "true": 50,
+        "false": 50
+      }
+    }
+  },
+  "jeff-2b": {
+    "rows": 2200,
+    "cases": 600,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {
+      "stored_prediction_tie_other_than_first": 6
+    },
+    "soft_gold_attached": 2000,
+    "sha256": "9870894124ff9dda0701ebab897fa2eb0488f001b30407e739ef95e47b629dfb",
+    "ood_labels": {
+      "ood_agnews": {
+        "business": 5,
+        "scitech": 29,
+        "sports": 11,
+        "world": 15
+      },
+      "ood_rotten": {
+        "true": 20,
+        "false": 20
+      },
+      "ood_sst2": {
+        "true": 50,
+        "false": 50
+      }
+    }
+  },
+  "jeff-0.8b": {
+    "rows": 2200,
+    "cases": 600,
+    "old_split_case_overlap": 266,
+    "argmax_issues": {
+      "stored_prediction_tie_other_than_first": 7
+    },
+    "soft_gold_attached": 2000,
+    "sha256": "751b5f817dc442462aded7578e61bd8b48acb931c50f540f9b03a86c2ae8cde4",
+    "ood_labels": {
+      "ood_agnews": {
+        "business": 5,
+        "scitech": 29,
+        "sports": 11,
+        "world": 15
+      },
+      "ood_rotten": {
+        "true": 20,
+        "false": 20
+      },
+      "ood_sst2": {
+        "true": 50,
+        "false": 50
+      }
+    }
+  }
+}

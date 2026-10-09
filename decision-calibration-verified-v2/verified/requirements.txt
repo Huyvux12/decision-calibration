@@ -1,0 +1,24 @@
+# decision-calibration requirements
+# Dependency ranges for the supplied workflow. The exact returned Colab
+# environment is recorded in colab_complete/pip_freeze.txt and manifests.
+# These ranges do not guarantee compatibility of all future releases.
+
+# --- GPU inference (Colab) ---
+torch>=2.4                      # preinstalled on Colab; listed for completeness
+transformers>=5.15,<6            # required by LiquidAI d1 remote code
+datasets>=3.0                   # typed-decisions / ag_news / rotten_tomatoes / glue
+pillow>=10.0
+soundfile>=0.12
+huggingface_hub>=0.24           # model / dataset downloads
+safetensors>=0.4                # LoRA adapter weights (opendecider-small)
+
+# --- model-specific (only needed for that registry entry) ---
+# opendecider-small: pip install "opendecider[small]"
+#   (on Colab first: pip uninstall -y torchao  -- peft/torchao conflict)
+# laya:             pip install laya            (then USE_TF=0, TRANSFORMERS_NO_TF=1)
+# jeff-2b/0.8b:     git clone https://github.com/firelex/jeff  (loader auto-clones)
+
+# --- local analysis (no GPU needed) ---
+numpy>=1.26
+scipy>=1.11                     # temperature fitting (minimize_scalar)
+matplotlib>=3.6                 # reliability diagrams

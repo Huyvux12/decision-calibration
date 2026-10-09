@@ -1,0 +1,5 @@
+
+COMMAND: ['/usr/bin/python3', PosixPath('/content/decision_calibration_source/scripts/analyze_raw_arm.py'), PosixPath('/content/decision_calibration_verified_v2/extension_output')]
+/content/decision_calibration_verified_v2/extension_output/raw_vs_shipped_omni.csv
+
+EXIT CODE: 0

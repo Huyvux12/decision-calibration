@@ -1,0 +1,52 @@
+[
+  {
+    "model": "d1-omni",
+    "eval": "in-domain",
+    "mode": "global",
+    "n_seeds": 20,
+    "ece_before_mean": 0.07897881016596646,
+    "ece_after_mean": 0.04789539048900246,
+    "delta_nll_mean": -0.01699067941662343,
+    "ece_improves_splits": 20
+  },
+  {
+    "model": "d1-omni",
+    "eval": "in-domain",
+    "mode": "per_task",
+    "n_seeds": 20,
+    "ece_before_mean": 0.07897881016596646,
+    "ece_after_mean": 0.05225235150849834,
+    "delta_nll_mean": -0.022138561659037485,
+    "ece_improves_splits": 20
+  },
+  {
+    "model": "d1-omni",
+    "eval": "in-domain",
+    "mode": "per_type",
+    "n_seeds": 20,
+    "ece_before_mean": 0.07897881016596646,
+    "ece_after_mean": 0.04579242326859868,
+    "delta_nll_mean": -0.026869152046239776,
+    "ece_improves_splits": 20
+  },
+  {
+    "model": "d1-omni",
+    "eval": "ood",
+    "mode": "global",
+    "n_seeds": 20,
+    "ece_before_mean": 0.024400009030772093,
+    "ece_after_mean": 0.03550442291652104,
+    "delta_nll_mean": 0.004453090973202331,
+    "ece_improves_splits": 4
+  },
+  {
+    "model": "d1-omni",
+    "eval": "ood",
+    "mode": "per_type",
+    "n_seeds": 20,
+    "ece_before_mean": 0.024400009030772093,
+    "ece_after_mean": 0.05577025586130787,
+    "delta_nll_mean": 0.02930491535683375,
+    "ece_improves_splits": 0
+  }
+]
